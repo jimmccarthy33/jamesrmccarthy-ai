@@ -30,7 +30,8 @@ const manifesto = await getEntry('writing', site.manifestoSlug);
   {
     manifesto && !manifesto.data.draft && (
       <section class="home-section">
-        <div class="container container--prose">
+        <div class="container">
+          <div class="home-block">
           <p class="section-kicker">Manifesto</p>
           <article class="editorial-row manifesto-row">
             <p class="editorial-row__meta">
@@ -50,6 +51,7 @@ const manifesto = await getEntry('writing', site.manifestoSlug);
           </article>
           <a class="text-link" href={`/writing/${manifesto.id}`}>Read Everyone Builds →</a>
           <a class="text-link text-link--secondary" href="/writing">All writing →</a>
+          </div>
         </div>
       </section>
     )
@@ -57,7 +59,7 @@ const manifesto = await getEntry('writing', site.manifestoSlug);
 
   <section class="home-section">
     <div class="container">
-      <div class="proof-block">
+      <div class="home-block">
         <p class="section-kicker">Track record</p>
         <TrackRecordList items={trackRecord} />
       </div>
@@ -66,7 +68,7 @@ const manifesto = await getEntry('writing', site.manifestoSlug);
 
   <section class="home-section">
     <div class="container">
-      <div class="about-block">
+      <div class="home-block">
         <p class="section-kicker">About</p>
         <p>
           I am an operator with a technology background. I moved from building software to running
@@ -84,7 +86,7 @@ const manifesto = await getEntry('writing', site.manifestoSlug);
 
   <section class="home-section">
     <div class="container">
-      <div class="contact-block">
+      <div class="home-block">
         <p class="section-kicker">Contact</p>
         <p>{site.contactTeaser}</p>
         <p>
