@@ -70,7 +70,7 @@ export type Role = {
 
 export const resume = {
   summary:
-    'Operations executive leading one of the few genuine AI-native operating-model transformations in hard services. I own a $495M P&L within a $600M+ technology-enabled facilities platform. Over two decades I have scaled complex, service-based businesses in private-equity-backed and public-company environments — from M&A integration and five-nines infrastructure to public-company turnaround and AI-native operating systems shipped in months, not years.',
+    'Operations executive leading one of the few genuine AI-native operating-model transformations in hard services. I own a $495M P&L within a $600M+ technology-enabled facilities platform. Over two decades I have scaled complex, service-based businesses in private-equity-backed and public-company environments, from M&A integration and five-nines infrastructure to public-company turnaround and AI-native operating systems shipped in months, not years.',
   /** Most recent first — used on About page */
   roles: [
     {
@@ -80,15 +80,11 @@ export const resume = {
       location: 'Scottsdale, AZ',
       bullets: [
         'Elevated through three successive C-suite mandates across two ownership groups at a national facilities platform backed by Wind River Holdings and Braemont Capital.',
-        'Own $495M P&L within a $600M+ platform — 2M+ work orders a year, 3,500+ service providers, 150,000+ technicians, $450M third-party spend.',
+        'Own $495M P&L within a $600M+ platform: 2M+ work orders a year, 3,500+ service providers, 150,000+ technicians, $450M third-party spend.',
         'Leading Vixxo into an AI-first operating model: frontier models and agentic workflows at the core of how the business plans, decides, and serves customers.',
-        'Brought in to deliver VixxoLink — a program and product turnaround more than two years late and over budget; delivered launch in nine months through execution discipline and product management methodology.',
+        'Brought in to deliver VixxoLink, a program and product turnaround more than two years late and over budget; delivered launch in nine months through execution discipline and product management methodology.',
         'Built and deployed VITA, a technician virtual assistant that raises proficiency, reduces time on task, and increases daily service capacity in the field.',
         'Expanded the operating environment to run and control performance across the full service-provider network.',
-        'New AI-native facilities operating system in under three months; legacy scheduling system replaced in a four-hour working session with agents.',
-        'Improved operating margin by 2.5 points; $5M+ structural savings including $3M annualized IT expense reduction; restructured IT to primarily outsourced delivery ($13.3M to ~$11.1M).',
-        'Post-acquisition integration of Cushman & Wakefield Facility Services — people, systems, SLAs, 3% direct cost reduction.',
-        'Executive sponsor for Fortune 500 clients including 7-Eleven and Target; partner to PE sponsors on value-creation and recapitalization readiness.',
       ],
     },
     {
@@ -99,7 +95,7 @@ export const resume = {
       bullets: [
         'Private-to-public transition: helped take Cole Real Estate Investments from a $3.5B privately held REIT to a public company with infrastructure to support $27B in asset management.',
         'Built a fully licensed FINRA broker-dealer network and more than 26 custom applications within the Salesforce ecosystem.',
-        'Directed IT, cybersecurity, and enterprise systems through financial restatement, SEC and federal investigations, and SOX remediation — nine material weaknesses remediated, 120+ accounting and IT controls redesigned.',
+        'Directed IT, cybersecurity, and enterprise systems through financial restatement, SEC and federal investigations, and SOX remediation: nine material weaknesses remediated, 120+ accounting and IT controls redesigned.',
         'Reported quarterly to six boards across the public company and managed funds; led cloud-first transformation and new financial reporting to public-company standards.',
       ],
     },
@@ -109,7 +105,7 @@ export const resume = {
       period: '2007',
       location: '',
       bullets: [
-        'Led the SuccessNet product turnaround — operating infrastructure for the K-12 Pearson SuccessNet platform through the 2007 relaunch.',
+        'Led the SuccessNet product turnaround, operating infrastructure for the K-12 Pearson SuccessNet platform through the 2007 relaunch.',
       ],
     },
     {
@@ -118,10 +114,9 @@ export const resume = {
       period: '',
       location: '',
       bullets: [
-        'Led M&A technology integration on a $120M+ budget — Airborne Express acquisition and DHL Mexico consolidation.',
-        'Led data center consolidation from Airborne Express; audited the product data center move.',
-        'Led U.S. data center consolidation from San Francisco to Scottsdale.',
-        'Built multiple five-nines data centers and automated sort facilities in Pennsylvania and Riverside.',
+        'Led M&A technology integration on a $120M+ budget for the Airborne Express acquisition and DHL Mexico consolidation.',
+        'Consolidated Airborne Express data centers and relocated the U.S. product data center from San Francisco to Scottsdale.',
+        'Built multiple five-nines data centers and automated sort facilities in Pennsylvania and Riverside, California.',
       ],
     },
     {
@@ -129,8 +124,8 @@ export const resume = {
       title: '',
       period: '',
       bullets: [
-        'WebMD — claims-processing modernization and HIPAA compliance.',
-        'U.S. Army, Military Intelligence — mission-critical operations under pressure.',
+        'WebMD: claims-processing modernization, HIPAA compliance, and Y2K remediation.',
+        'U.S. Army, Military Intelligence: mission-critical operations under pressure.',
       ],
     },
   ] satisfies Role[],
