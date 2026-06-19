@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { aboutVentures } from '../data/about';
 import { site } from '../data/site';
 import { resume } from '../data/resume';
 ---
@@ -48,35 +49,54 @@ import { resume } from '../data/resume';
     </div>
 
     <div class="container container--narrow prose">
-      {
-        resume.roles.map((role) => (
-          <div class="role-block">
-            <h2>
-              {role.company}
-              {(role.title || role.period) && (
-                <span class="role-block__meta">
-                  {role.title && ` · ${role.title}`}
-                  {role.period && ` · ${role.period}`}
-                </span>
-              )}
-            </h2>
-            <ul>
-              {role.bullets.map((bullet) => (
-                <li>{bullet}</li>
+      <section class="about-ventures" aria-labelledby="about-ventures-heading">
+        <h2 id="about-ventures-heading" class="about-ventures__heading">Building beyond operations</h2>
+        {
+          aboutVentures.map((venture) => (
+            <div class="about-venture">
+              <h3>
+                {venture.name}
+                {venture.role && <span class="about-venture__meta"> · {venture.role}</span>}
+              </h3>
+              {venture.paragraphs.map((paragraph) => (
+                <p>{paragraph}</p>
               ))}
-            </ul>
-          </div>
-        ))
-      }
+            </div>
+          ))
+        }
+      </section>
+    </div>
 
-      <p class="about-education">{resume.education}</p>
+    <div class="container container--narrow prose">
+      <section class="about-experience" aria-labelledby="about-experience-heading">
+        <h2 id="about-experience-heading" class="about-experience__heading">Experience</h2>
+        {
+          resume.roles.map((role) => (
+            <div class="role-block">
+              <h3>
+                {role.company}
+                {(role.title || role.period) && (
+                  <span class="role-block__meta">
+                    {role.title && ` · ${role.title}`}
+                    {role.period && ` · ${role.period}`}
+                  </span>
+                )}
+              </h3>
+              <ul>
+                {role.bullets.map((bullet) => (
+                  <li>{bullet}</li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
+
+        <p class="about-education">{resume.education}</p>
+      </section>
     </div>
 
     <div class="container container--narrow">
       <p class="about-credential">{site.role}</p>
-      <p class="about-resume-link">
-        <a href="/james-r-mccarthy-resume.pdf">Resume (PDF) →</a>
-      </p>
     </div>
   </section>
 </BaseLayout>

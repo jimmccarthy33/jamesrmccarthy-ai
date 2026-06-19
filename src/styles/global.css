@@ -401,10 +401,29 @@ p:last-child {
   margin: var(--space-3xl) 0 var(--space-lg);
 }
 
-.role-block h2 {
+.role-block h2,
+.role-block h3 {
   font-size: 1.375rem;
   margin-top: var(--space-3xl);
   margin-bottom: var(--space-md);
+}
+
+.about-experience {
+  margin-top: var(--space-3xl);
+}
+
+.about-experience__heading {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+  margin: 0 0 var(--space-2xl);
+}
+
+.about-experience .role-block h3:first-of-type {
+  margin-top: 0;
 }
 
 .role-block ul {
@@ -430,19 +449,6 @@ p:last-child {
   margin-top: var(--space-3xl);
   font-size: 0.9375rem;
   color: var(--color-secondary);
-}
-
-.about-resume-link {
-  margin-top: var(--space-lg);
-  font-size: 0.9375rem;
-}
-
-.about-resume-link a {
-  text-decoration: none;
-}
-
-.about-resume-link a:hover {
-  text-decoration: underline;
 }
 
 .prose :global(h3) {
@@ -540,6 +546,51 @@ p:last-child {
 }
 
 .about-intro__text p:last-child {
+  margin-bottom: 0;
+}
+
+.about-ventures {
+  margin-bottom: var(--space-3xl);
+  padding-bottom: var(--space-3xl);
+  border-bottom: 1px solid color-mix(in srgb, var(--color-rule) 35%, var(--color-canvas));
+}
+
+.about-ventures__heading {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+  margin: 0 0 var(--space-2xl);
+}
+
+.about-venture {
+  margin-bottom: var(--space-3xl);
+}
+
+.about-venture:last-child {
+  margin-bottom: 0;
+}
+
+.about-venture h3 {
+  font-size: 1.375rem;
+  margin: 0 0 var(--space-md);
+}
+
+.about-venture__meta {
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: var(--color-secondary);
+  letter-spacing: 0;
+}
+
+.about-venture p {
+  margin: 0 0 var(--space-lg);
+}
+
+.about-venture p:last-child {
   margin-bottom: 0;
 }
 

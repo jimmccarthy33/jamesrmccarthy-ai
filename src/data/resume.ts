@@ -71,40 +71,8 @@ export type Role = {
 export const resume = {
   summary:
     'Operations executive leading one of the few genuine AI-native operating-model transformations in hard services. I own a $495M P&L within a $600M+ technology-enabled facilities platform. Over two decades I have scaled complex, service-based businesses in private-equity-backed and public-company environments — from M&A integration and five-nines infrastructure to public-company turnaround and AI-native operating systems shipped in months, not years.',
+  /** Most recent first — used on About page */
   roles: [
-    {
-      company: 'DHL Express',
-      title: 'Global Technology Integration Lead',
-      period: '',
-      location: '',
-      bullets: [
-        'Led M&A technology integration on a $120M+ budget — Airborne Express acquisition and DHL Mexico consolidation.',
-        'Led data center consolidation from Airborne Express; audited the product data center move.',
-        'Led U.S. data center consolidation from San Francisco to Scottsdale.',
-        'Built multiple five-nines data centers and automated sort facilities in Pennsylvania and Riverside.',
-      ],
-    },
-    {
-      company: 'Pearson Education',
-      title: 'Director of Operations',
-      period: '2007',
-      location: '',
-      bullets: [
-        'Led the SuccessNet product turnaround — operating infrastructure for the K-12 Pearson SuccessNet platform through the 2007 relaunch.',
-      ],
-    },
-    {
-      company: 'VEREIT, Inc. (NYSE: VER)',
-      title: 'Senior Vice President, Chief Information Officer',
-      period: '2008 – 2019',
-      location: 'Phoenix, AZ',
-      bullets: [
-        'Private-to-public transition: helped take Cole Real Estate Investments from a $3.5B privately held REIT to a public company with infrastructure to support $27B in asset management.',
-        'Built a fully licensed FINRA broker-dealer network and more than 26 custom applications within the Salesforce ecosystem.',
-        'Directed IT, cybersecurity, and enterprise systems through financial restatement, SEC and federal investigations, and SOX remediation — nine material weaknesses remediated, 120+ accounting and IT controls redesigned.',
-        'Reported quarterly to six boards across the public company and managed funds; led cloud-first transformation and new financial reporting to public-company standards.',
-      ],
-    },
     {
       company: 'Vixxo',
       title: 'Chief Operating Officer (formerly CTO and Chief Technology & Supply Chain Officer)',
@@ -121,6 +89,39 @@ export const resume = {
         'Improved operating margin by 2.5 points; $5M+ structural savings including $3M annualized IT expense reduction; restructured IT to primarily outsourced delivery ($13.3M to ~$11.1M).',
         'Post-acquisition integration of Cushman & Wakefield Facility Services — people, systems, SLAs, 3% direct cost reduction.',
         'Executive sponsor for Fortune 500 clients including 7-Eleven and Target; partner to PE sponsors on value-creation and recapitalization readiness.',
+      ],
+    },
+    {
+      company: 'VEREIT, Inc. (NYSE: VER)',
+      title: 'Senior Vice President, Chief Information Officer',
+      period: '2008 – 2019',
+      location: 'Phoenix, AZ',
+      bullets: [
+        'Private-to-public transition: helped take Cole Real Estate Investments from a $3.5B privately held REIT to a public company with infrastructure to support $27B in asset management.',
+        'Built a fully licensed FINRA broker-dealer network and more than 26 custom applications within the Salesforce ecosystem.',
+        'Directed IT, cybersecurity, and enterprise systems through financial restatement, SEC and federal investigations, and SOX remediation — nine material weaknesses remediated, 120+ accounting and IT controls redesigned.',
+        'Reported quarterly to six boards across the public company and managed funds; led cloud-first transformation and new financial reporting to public-company standards.',
+      ],
+    },
+    {
+      company: 'Pearson Education',
+      title: 'Director of Operations',
+      period: '2007',
+      location: '',
+      bullets: [
+        'Led the SuccessNet product turnaround — operating infrastructure for the K-12 Pearson SuccessNet platform through the 2007 relaunch.',
+      ],
+    },
+    {
+      company: 'DHL Express',
+      title: 'Global Technology Integration Lead',
+      period: '',
+      location: '',
+      bullets: [
+        'Led M&A technology integration on a $120M+ budget — Airborne Express acquisition and DHL Mexico consolidation.',
+        'Led data center consolidation from Airborne Express; audited the product data center move.',
+        'Led U.S. data center consolidation from San Francisco to Scottsdale.',
+        'Built multiple five-nines data centers and automated sort facilities in Pennsylvania and Riverside.',
       ],
     },
     {
