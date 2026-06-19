@@ -11,18 +11,14 @@ const manifesto = await getEntry('writing', site.manifestoSlug);
 <BaseLayout description={site.description} path="/">
   <section class="hero">
     <div class="container">
-      <div class="hero__grid">
-        <div class="hero__primary">
-          <h1 class="hero__name">
-            <span class="hero__name-line">James R.</span>
-            <span class="hero__name-line">McCarthy</span>
-          </h1>
-          <p class="hero__goes-by">I go by Jim.</p>
-        </div>
-        <div class="hero__secondary">
-          <p class="hero__thesis">{site.thesis}</p>
-          <p class="hero__credential">{site.credential}</p>
-        </div>
+      <div class="home-block hero__stack">
+        <h1 class="hero__name">
+          <span class="hero__name-line">James R.</span>
+          <span class="hero__name-line">McCarthy</span>
+        </h1>
+        <p class="hero__goes-by">I go by Jim.</p>
+        <p class="hero__thesis">{site.thesis}</p>
+        <p class="hero__credential">{site.credential}</p>
       </div>
     </div>
   </section>
