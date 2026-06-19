@@ -1,43 +1,60 @@
-# Astro Starter Kit: Minimal
+# jamesrmccarthy.ai
 
-```sh
-npm create astro@latest -- --template minimal
+Personal site for **Jim McCarthy** (James R. McCarthy). Operator thesis, proof library, and writing.
+
+Built with [Astro](https://astro.build). Deployed on [Vercel](https://vercel.com).
+
+## Local development
+
+```bash
+npm install
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Open [http://localhost:4321](http://localhost:4321).
 
-## 🚀 Project Structure
+## Build
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```bash
+npm run build
+npm run preview
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Deploy to Vercel
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+1. Push this repo to GitHub.
+2. Import the project in Vercel (framework preset: Astro).
+3. Add custom domain `jamesrmccarthy.ai` and `www.jamesrmccarthy.ai`.
+4. Point DNS to Vercel (A/CNAME per Vercel dashboard).
 
-Any static assets, like images, can be placed in the `public/` directory.
+No environment variables required for V1.
 
-## 🧞 Commands
+## Content
 
-All commands are run from the root of the project, from a terminal:
+Essays live in `src/content/writing/`. Add a markdown file with frontmatter:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+```yaml
+---
+title: "Post title"
+subtitle: "Optional subtitle"
+description: "One-line summary for indexes and meta tags"
+pubDate: 2026-06-19
+draft: false
+---
+```
 
-## 👀 Want to learn more?
+Set `draft: true` to hide from production builds.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Site copy and proof library: `src/data/`.
+
+## AI discoverability
+
+- `/llms.txt` — curated identity and page map for LLM crawlers
+- Person JSON-LD on every page
+- `/rss.xml` — writing feed
+- `/sitemap-index.xml` — auto-generated via `@astrojs/sitemap`
+- `/robots.txt` — allows major AI crawlers
+
+## Design
+
+Warm-light editorial layout. Typography-only hero (V1). Darker teal accent on links and nav.

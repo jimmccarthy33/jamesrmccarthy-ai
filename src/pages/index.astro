@@ -1,17 +1,97 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TrackRecordList from '../components/TrackRecordList.astro';
+import { getEntry } from 'astro:content';
+import { site } from '../data/site';
+import { trackRecord } from '../data/resume';
 
+const manifesto = await getEntry('writing', site.manifestoSlug);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout description={site.description} path="/">
+  <section class="hero">
+    <div class="container">
+      <div class="hero__grid">
+        <div class="hero__primary">
+          <h1 class="hero__name">
+            <span class="hero__name-line">James R.</span>
+            <span class="hero__name-line">McCarthy</span>
+          </h1>
+          <p class="hero__goes-by">I go by Jim.</p>
+        </div>
+        <div class="hero__secondary">
+          <p class="hero__thesis">{site.thesis}</p>
+          <p class="hero__credential">{site.credential}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {
+    manifesto && !manifesto.data.draft && (
+      <section class="home-section">
+        <div class="container container--prose">
+          <p class="section-kicker">Manifesto</p>
+          <article class="editorial-row manifesto-row">
+            <p class="editorial-row__meta">
+              {manifesto.data.pubDate.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+              })}
+            </p>
+            <h2 class="editorial-row__title">
+              <a href={`/writing/${manifesto.id}`}>{manifesto.data.title}</a>
+            </h2>
+            {manifesto.data.subtitle && (
+              <p class="editorial-row__summary">{manifesto.data.subtitle}</p>
+            )}
+            <p class="editorial-row__summary">{manifesto.data.description}</p>
+          </article>
+          <a class="text-link" href={`/writing/${manifesto.id}`}>Read Everyone Builds →</a>
+          <a class="text-link text-link--secondary" href="/writing">All writing →</a>
+        </div>
+      </section>
+    )
+  }
+
+  <section class="home-section">
+    <div class="container">
+      <div class="proof-block">
+        <p class="section-kicker">Track record</p>
+        <TrackRecordList items={trackRecord} />
+      </div>
+    </div>
+  </section>
+
+  <section class="home-section">
+    <div class="container">
+      <div class="about-block">
+        <p class="section-kicker">About</p>
+        <p>
+          I am an operator with a technology background. I moved from building software to running
+          operations at scale, and I think in systems, cadence, margin integrity, and closed loops.
+        </p>
+        <p>
+          I believe AI-native operating models let more people build at startup speed inside incumbent
+          organizations. Not less process. More process, running faster, with human judgment on the
+          decisions that matter.
+        </p>
+        <a class="text-link" href="/about">Full bio →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-section">
+    <div class="container">
+      <div class="contact-block">
+        <p class="section-kicker">Contact</p>
+        <p>{site.contactTeaser}</p>
+        <p>
+          <a href={`mailto:${site.email}`}>{site.email}</a>
+        </p>
+        <a class="text-link" href="/contact">Contact →</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

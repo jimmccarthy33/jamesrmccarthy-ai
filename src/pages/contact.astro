@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+---
+
+<BaseLayout
+  title="Contact"
+  description={`Contact ${site.legalName} (${site.name}).`}
+  path="/contact"
+>
+  <header class="page-header">
+    <div class="container container--narrow">
+      <h1>Contact</h1>
+      <p class="page-header__subtitle">{site.contactSubtitle}</p>
+    </div>
+  </header>
+
+  <section class="page-section">
+    <div class="container container--narrow">
+      <p class="contact-email">
+        <a href={`mailto:${site.email}`}>{site.email}</a>
+      </p>
+      <p>{site.contactBody}</p>
+    </div>
+  </section>
+</BaseLayout>

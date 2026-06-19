@@ -1,0 +1,34 @@
+---
+import { site } from '../data/site';
+
+interface Props {
+  currentPath?: string;
+}
+
+const { currentPath = '/' } = Astro.props;
+
+const nav = [
+  { href: '/writing', label: 'Writing' },
+  { href: '/about', label: 'About' },
+  { href: '/contact', label: 'Contact' },
+];
+---
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">{site.legalName}</a>
+    <nav aria-label="Primary">
+      <ul class="site-nav">
+        {
+          nav.map((item) => (
+            <li>
+              <a href={item.href} aria-current={currentPath.startsWith(item.href) ? 'page' : undefined}>
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,22 @@
+---
+import type { TrackRecordItem } from '../data/resume';
+
+interface Props {
+  items: TrackRecordItem[];
+}
+
+const { items } = Astro.props;
+---
+
+<ol class="track-record">
+  {
+    items.map((item) => (
+      <li class="track-record__item">
+        <span class="track-record__number" aria-hidden="true">
+          {item.number}
+        </span>
+        <p class="track-record__headline">{item.headline}</p>
+      </li>
+    ))
+  }
+</ol>

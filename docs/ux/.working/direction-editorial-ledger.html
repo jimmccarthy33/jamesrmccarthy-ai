@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Direction B — Editorial Ledger</title>
+  <!-- Palette: canvas #faf8f4, ink #1a1917, muted #6b6560, rule #e8e4dc, accent #245656 -->
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #faf8f4;
+      color: #1a1917;
+      font-size: 18px;
+      line-height: 1.7;
+    }
+    .frame { max-width: 1080px; margin: 0 auto; padding: 40px 32px 120px; }
+    .rationale {
+      font-size: 13px; color: #6b6560; padding: 12px 0; margin-bottom: 40px;
+      border-bottom: 1px solid #e8e4dc;
+    }
+    header.site {
+      display: grid; grid-template-columns: 1fr auto; align-items: end;
+      padding-bottom: 32px;
+    }
+    .brand { font-family: 'Libre Caslon Text', serif; font-size: 18px; color: #1a1917; text-decoration: none; }
+    nav a { color: #6b6560; text-decoration: none; font-size: 15px; margin-left: 32px; }
+    nav a:hover { color: #245656; }
+    .hero {
+      display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+      gap: 0 80px; padding: 96px 0 120px;
+    }
+    .hero-left { padding-right: 0; }
+    .legal { font-size: 14px; color: #6b6560; margin-bottom: 16px; }
+    h1 {
+      font-family: 'Libre Caslon Text', serif; font-weight: 400;
+      font-size: clamp(3.5rem, 8vw, 5.5rem); line-height: 0.95;
+      letter-spacing: -0.025em; margin-bottom: 0;
+    }
+    .hero-right {
+      padding-top: 48px; align-self: end;
+    }
+    .thesis {
+      font-family: 'Libre Caslon Text', serif; font-size: 1.5rem; line-height: 1.4;
+      font-weight: 400; color: #1a1917;
+    }
+    .proof {
+      padding-top: 0; margin-left: auto; width: min(100%, 680px);
+    }
+    .kicker {
+      font-size: 12px; font-weight: 500; letter-spacing: 0.14em;
+      text-transform: uppercase; color: #6b6560; margin-bottom: 40px;
+    }
+    .proof-list { list-style: none; }
+    .proof-item {
+      display: grid; grid-template-columns: 72px 1fr; gap: 24px;
+      padding: 28px 0;
+    }
+    .num {
+      font-family: 'Libre Caslon Text', serif; font-size: 2.5rem; line-height: 1;
+      color: #e8e4dc; font-weight: 400;
+    }
+    .headline {
+      font-family: 'Libre Caslon Text', serif; font-size: 1.25rem;
+      line-height: 1.35; padding-top: 8px;
+    }
+    .proof-item + .proof-item { border-top: 1px solid #e8e4dc; }
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; gap: 32px; padding: 64px 0 80px; }
+      .hero-right { padding-top: 0; }
+      .proof { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <p class="rationale"><strong>Direction B — Editorial Ledger.</strong> Braemont-scale whitespace and asymmetry: name dominates left column, thesis floats right. Proof uses oversized ghost numerals (Linen &amp; Logic discipline, stone/teal palette). Libre Caslon Text + DM Sans.</p>
+
+    <header class="site">
+      <a class="brand" href="#">Jim McCarthy</a>
+      <nav>
+        <a href="#">Writing</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-left">
+        <p class="legal">James R. McCarthy</p>
+        <h1>Jim<br>McCarthy</h1>
+      </div>
+      <div class="hero-right">
+        <p class="thesis">AI-native operating models produce startup build velocity at incumbent scale. Builder and product roles are converging. A small team with the right stack outruns a large team on legacy process.</p>
+      </div>
+    </section>
+
+    <section class="proof">
+      <p class="kicker">Proof</p>
+      <ol class="proof-list">
+        <li class="proof-item">
+          <span class="num">01</span>
+          <span class="headline">Legacy system rebuilt in four hours with agents</span>
+        </li>
+        <li class="proof-item">
+          <span class="num">02</span>
+          <span class="headline">Weekend TAM assessment vs. ~$500K project quote</span>
+        </li>
+        <li class="proof-item">
+          <span class="num">03</span>
+          <span class="headline">Intern AngularJS migration in Cursor vs. enterprise timeline measured in years</span>
+        </li>
+        <li class="proof-item">
+          <span class="num">04</span>
+          <span class="headline">Field-born AI tools from a technician's idea, not a lab</span>
+        </li>
+      </ol>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { site } from '../../data/site';
+
+const posts = (await getCollection('writing', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+---
+
+<BaseLayout
+  title="Writing"
+  description={`Essays on AI-native operating models by ${site.legalName} (${site.name}).`}
+  path="/writing"
+>
+  <header class="page-header">
+    <div class="container container--prose">
+      <h1>Writing</h1>
+      <p class="page-header__subtitle">Operator essays. Sector-neutral. Operating model only.</p>
+    </div>
+  </header>
+
+  <section class="page-section">
+    <div class="container container--prose">
+      {
+        posts.map((post) => (
+          <article class="editorial-row">
+            <p class="editorial-row__meta">
+              {post.data.pubDate.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+              })}
+            </p>
+            <h2 class="editorial-row__title">
+              <a href={`/writing/${post.id}`}>{post.data.title}</a>
+            </h2>
+            {post.data.subtitle && <p class="editorial-row__summary">{post.data.subtitle}</p>}
+            <p class="editorial-row__summary">{post.data.description}</p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

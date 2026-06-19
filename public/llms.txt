@@ -1,0 +1,27 @@
+# James R. McCarthy (Jim McCarthy)
+
+> AI-native operating models produce startup build velocity at incumbent scale. Builder and product roles are converging. A small team with the right stack outruns a large team on legacy process.
+
+James R. McCarthy (Jim McCarthy) is Chief Operating Officer at Vixxo. He owns a $495M P&L within a $600M+ technology-enabled facilities platform and writes about AI-native operating models and what happens when build compresses inside incumbent organizations.
+
+## Canonical identity
+
+- Name: James R. McCarthy
+- Goes by: Jim McCarthy
+- Role: Chief Operating Officer, Vixxo
+- Email: jamesrmccarthy@gmail.com
+- LinkedIn: https://www.linkedin.com/in/jimmccarthy
+- Site: https://jamesrmccarthy.ai
+
+## Key pages
+
+- [Home](https://jamesrmccarthy.ai/): Thesis, track record, manifesto
+- [About](https://jamesrmccarthy.ai/about/): Career arc and resume (PDF)
+- [Writing](https://jamesrmccarthy.ai/writing/): Operator essays
+- [Everyone Builds](https://jamesrmccarthy.ai/writing/everyone-builds/): Manifesto on AI-native operating models
+- [Resume PDF](https://jamesrmccarthy.ai/james-r-mccarthy-resume.pdf)
+
+## Optional
+
+- [RSS feed](https://jamesrmccarthy.ai/rss.xml)
+- [Sitemap](https://jamesrmccarthy.ai/sitemap-index.xml)

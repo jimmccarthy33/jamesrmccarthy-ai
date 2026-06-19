@@ -1,0 +1,66 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+import { resume } from '../data/resume';
+---
+
+<BaseLayout
+  title="About"
+  description={`About ${site.legalName} (${site.name}), C-suite operator with a technology and enterprise operations background.`}
+  path="/about"
+>
+  <header class="page-header">
+    <div class="container container--narrow">
+      <h1>About</h1>
+    </div>
+  </header>
+
+  <section class="page-section">
+    <div class="container container--narrow prose">
+      <p>
+        I am {site.legalName}. I go by Jim. {resume.summary}
+      </p>
+      <p>
+        I believe AI-native operating models produce startup build velocity at incumbent scale.
+        Builder, product, and operator roles are converging. When build compresses, the bottleneck
+        moves to design and review. The organizations that win will not buy the most tools. They
+        will be the ones where everyone builds, with human judgment elevated on the decisions that
+        carry accountability.
+      </p>
+      <p>
+        I treat AI as operating leverage, not theater. Speed is an advantage only when timing and
+        enrollment are right. I replace narrative reporting with facts, owners, dates, closure
+        definitions, and verification loops.
+      </p>
+
+      {
+        resume.roles.map((role) => (
+          <div class="role-block">
+            <h2>
+              {role.company}
+              {(role.title || role.period) && (
+                <span class="role-block__meta">
+                  {role.title && ` · ${role.title}`}
+                  {role.period && ` · ${role.period}`}
+                </span>
+              )}
+            </h2>
+            <ul>
+              {role.bullets.map((bullet) => (
+                <li>{bullet}</li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+
+      <p class="about-education">{resume.education}</p>
+    </div>
+    <div class="container container--narrow">
+      <p class="about-credential">{site.role}</p>
+      <p class="about-resume-link">
+        <a href="/james-r-mccarthy-resume.pdf">Resume (PDF) →</a>
+      </p>
+    </div>
+  </section>
+</BaseLayout>
