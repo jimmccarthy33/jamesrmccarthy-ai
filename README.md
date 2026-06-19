@@ -1,8 +1,10 @@
 # jamesrmccarthy.ai
 
-Personal site for **Jim McCarthy** (James R. McCarthy). Operator thesis, proof library, and writing.
+Personal site for **James R. McCarthy** (Jim McCarthy). Operator thesis, track record, and writing.
 
 Built with [Astro](https://astro.build). Deployed on [Vercel](https://vercel.com).
+
+**Repository:** https://github.com/jimmccarthy33/jamesrmccarthy-ai
 
 ## Local development
 
@@ -22,10 +24,11 @@ npm run preview
 
 ## Deploy to Vercel
 
-1. Push this repo to GitHub.
-2. Import the project in Vercel (framework preset: Astro).
-3. Add custom domain `jamesrmccarthy.ai` and `www.jamesrmccarthy.ai`.
-4. Point DNS to Vercel (A/CNAME per Vercel dashboard).
+1. Import https://github.com/jimmccarthy33/jamesrmccarthy-ai in Vercel (framework preset: Astro).
+2. Add custom domain `jamesrmccarthy.ai` and `www.jamesrmccarthy.ai`.
+3. Point DNS to Vercel (A/CNAME per Vercel dashboard).
+
+Pushes to `main` auto-deploy when the repo is connected.
 
 No environment variables required for V1.
 
