@@ -4,59 +4,59 @@ export type TrackRecordItem = {
 };
 
 /**
- * Home-page track record — one line each, career arc (early → recent).
- * DHL → Pearson → VEREIT → Vixxo. Not labeled chronological; order carries it.
+ * Home-page track record — one line each, ordered for executive impact.
+ * AI-native velocity first, then scale, margin, turnarounds, and career depth.
  */
 export const trackRecord: TrackRecordItem[] = [
   {
     number: '01',
     headline:
-      'DHL M&A integration — Airborne data center consolidation, DHL Mexico, U.S. move San Francisco to Scottsdale, five-nines data centers and automated sort in Pennsylvania and Riverside',
+      'AI-native facilities operating system in under three months; legacy scheduling rebuilt in a four-hour working session',
   },
   {
     number: '02',
     headline:
-      'Pearson SuccessNet product turnaround — led operating infrastructure for the K-12 platform relaunch (2007)',
+      '$495M P&L on a $600M+ platform — 2M+ work orders a year, 3,500+ service providers, 150,000+ technicians',
   },
   {
     number: '03',
     headline:
-      'VEREIT private-to-public transition — $3.5B REIT to $27B public platform; FINRA broker-dealer environment, 26 Salesforce applications',
+      '2.5 points of operating margin and $5M+ in structural savings through integration discipline and cost programs',
   },
   {
     number: '04',
     headline:
-      'Public-company CIO through restatement and SOX remediation — nine material weaknesses closed, six boards',
+      'VixxoLink — brought in to deliver a program and product turnaround; more than two years late and over budget, launch in nine months',
   },
   {
     number: '05',
     headline:
-      '$495M P&L on a $600M+ platform — 2M+ work orders a year, 3,500+ service providers, 150,000+ technicians',
+      'Expanded the operating model to run and control performance across the full service-provider network',
   },
   {
     number: '06',
     headline:
-      'VixxoLink — brought in to deliver a program and product turnaround; more than two years late and over budget, launch in nine months',
+      'VITA — technician virtual assistant in the field, raising proficiency and daily service capacity across the network',
   },
   {
     number: '07',
     headline:
-      'VITA — technician virtual assistant in the field, raising proficiency and daily service capacity across the network',
+      'Public-company CIO through restatement and SOX remediation — nine material weaknesses closed, six boards',
   },
   {
     number: '08',
     headline:
-      'AI-native facilities operating system in under three months; legacy scheduling rebuilt in a four-hour working session',
+      'VEREIT private-to-public transition — $3.5B REIT to $27B public platform; FINRA broker-dealer environment, 26 Salesforce applications',
   },
   {
     number: '09',
     headline:
-      'Expanded the operating model to run and control performance across the full service-provider network',
+      'Pearson SuccessNet product turnaround — led operating infrastructure for the K-12 platform relaunch (2007)',
   },
   {
     number: '10',
     headline:
-      '2.5 points of operating margin and $5M+ in structural savings through integration discipline and cost programs',
+      'DHL M&A integration — Airborne data center consolidation, DHL Mexico, U.S. move San Francisco to Scottsdale, five-nines data centers and automated sort in Pennsylvania and Riverside',
   },
 ];
 
@@ -70,7 +70,7 @@ export type Role = {
 
 export const resume = {
   summary:
-    'Operations executive leading one of the few genuine AI-native operating-model transformations in hard services. I own a $495M P&L within a $600M+ technology-enabled facilities platform. Over two decades I have scaled complex, service-based businesses in private-equity-backed and public-company environments, from M&A integration and five-nines infrastructure to public-company turnaround and AI-native operating systems shipped in months, not years.',
+    'Operations executive leading one of the few genuine AI-native operating-model transformations in hard services. $495M P&L within a $600M+ technology-enabled facilities platform. Over two decades I have scaled complex, service-based businesses in private-equity-backed and public-company environments, from M&A integration and five-nines infrastructure to public-company turnaround and AI-native operating systems shipped in months, not years.',
   /** Most recent first — used on About page */
   roles: [
     {
@@ -80,7 +80,7 @@ export const resume = {
       location: 'Scottsdale, AZ',
       bullets: [
         'Elevated through three successive C-suite mandates across two ownership groups at a national facilities platform backed by Wind River Holdings and Braemont Capital.',
-        'Own $495M P&L within a $600M+ platform: 2M+ work orders a year, 3,500+ service providers, 150,000+ technicians, $450M third-party spend.',
+        '$495M P&L within a $600M+ platform: 2M+ work orders a year, 3,500+ service providers, 150,000+ technicians, $450M third-party spend.',
         'Leading Vixxo into an AI-first operating model: frontier models and agentic workflows at the core of how the business plans, decides, and serves customers.',
         'Brought in to deliver VixxoLink, a program and product turnaround more than two years late and over budget; delivered launch in nine months through execution discipline and product management methodology.',
         'Built and deployed VITA, a technician virtual assistant that raises proficiency, reduces time on task, and increases daily service capacity in the field.',
