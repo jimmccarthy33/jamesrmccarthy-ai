@@ -42,6 +42,20 @@ Everyone Builds was about who participates when build compresses. The Loop was a
 
 ---
 
+## Good enough is already running your business
+
+Here is the question the readiness deck never asks. If the data is not good enough for AI, how is it good enough for the humans making decisions in your operation today?
+
+Adjusters approve claims on incomplete files. AP clerks reconcile invoices when the SKU does not line up. KYC analysts pull judgment out of hundred-page corporate files. Nurses and utilization staff push prior authorization through fragmented records. Dispatchers, underwriters, contract managers, and buyer teams work around the gaps every day. The business does not wait for a golden record before it moves money, releases work, or serves a customer.
+
+Humans compensate. They hold context in their heads. They call a colleague who knows the account. They open three systems and stitch the story together by hand. They know which vendor abbreviates which way and which exception is normal for which customer. That is not a data quality failure. That is how work actually gets done inside imperfect systems.
+
+AI does not need cleaner inputs than your people already use. It needs the same inputs, the same standards, and the same validate gate your best operator already applies. The agent can fuzzy-match, extract, and recommend at a speed no manual process can sustain. The human still owns the call when the match is ambiguous, the document is incomplete, or the liability is real.
+
+If your data were truly unusable, your business would have stopped already. It did not. Perfection is the enemy of progress. Waiting for clean data before you start is often a way to defer the accountability of running a real workflow in production.
+
+---
+
 ## Healthcare: shared rails, broken records
 
 Healthcare has spent years on interoperability. CMS rules created shared technical rails between payers and providers. That is real progress. It is also not the same as shared truth inside a provider organization.
@@ -110,15 +124,25 @@ The math of matching changed. The consulting timeline often did not.
 
 ## What still breaks
 
-I am not arguing that data quality is irrelevant. I am arguing that enterprise-wide cleanup is a bad reason to delay every AI workflow.
+I am not arguing that data quality is irrelevant. I am not arguing that every workflow should go straight to autonomous execution. I am arguing that enterprise-wide cleanup is a bad reason to delay every AI workflow, and that the bar for "good enough to start" is lower than the readiness deck implies.
 
-Some problems still need durable master data. Patient identity at scale. Regulatory reporting to a defined golden source. Audit trails that must survive examination. Security boundaries around PII and access control. Those are real. They are also usually narrower than the "clean everything first" deck implies.
+Critics are right about several things.
+
+Some problems still need durable master data. Patient identity at scale. Regulatory reporting to a defined golden source. Sanctions and AML screening where false negatives carry legal exposure. Audit trails that must survive examination. Security boundaries around PII, access control, and production system exposure. Those are real constraints, not impatience.
+
+Critics are also right that runtime inference has a cost. Repeated extraction and matching at volume can be more expensive than deterministic rules on pre-cleaned data. MCP connectors without governance can become integration sprawl. Plausible AI output without a validate gate is worse than slow manual work.
+
+I agree with all of that.
+
+What I reject is the sequencing error. The belief that no loop may start until the enterprise finishes harmonizing. The deck that treats AI as phase four of a data program your organization has been deferring for a decade. The vendor who sells cleanup as the prerequisite because cleanup is what they sell.
 
 What fails is automating act without validate. If you cannot describe what good looks like at the proof gate, you are not ready to accelerate anything. You are accelerating chaos. Garbage in, garbage out still applies when nobody owns the exception queue.
 
+What succeeds looks like this. Start on the workflow where humans already decide on messy data every day. Connect live systems read-only. Encode the standard your best operator uses. Route low-confidence output to that operator. Log what the agent accessed and what it proposed. Improve the loop from production learning, not from another architecture phase.
+
 Standards at validate. Not perfection in the warehouse.
 
-Targeted hygiene inside a running loop beats a multi-year program that never reaches production.
+Targeted hygiene inside a running loop beats a multi-year program that never reaches production. Acknowledge the risks. Design the gates. Start anyway.
 
 ---
 
@@ -149,6 +173,8 @@ You do not need an enterprise AI strategy to begin. You need one loop, one conne
 Pick the workflow where manual reconciliation is obviously expensive. Connect the systems that hold the inputs. Let the agent extract, match, and recommend at runtime. Measure cycle time from detect to validated close. Capture what the loop learns and encode it for the next pass.
 
 The company selling a data cleanup engagement before AI is usually selling consulting. The company shipping an MCP server over your existing stack is selling leverage.
+
+Your operators already run on the data you have. Start there. Improve there. Do not let perfect become the reason nothing ships.
 
 Start small. Start real. Connect first. Run the loop on the data you have, not the data you wish you had.
 
