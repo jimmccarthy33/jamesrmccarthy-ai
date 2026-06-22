@@ -3,7 +3,7 @@ title: "Start Now"
 subtitle: "AI readiness is loop readiness, not warehouse readiness"
 description: "You do not need eighteen months of data cleanup before AI can run. Cross-industry proof that runtime intelligence, fuzzy matching, and MCP connectors beat consulting-led MDM programs."
 pubDate: 2026-06-21
-draft: false
+draft: true
 ---
 
 # Start Now
