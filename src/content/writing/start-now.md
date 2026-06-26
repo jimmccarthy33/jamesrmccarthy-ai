@@ -1,181 +1,75 @@
 ---
 title: "Start Now"
-subtitle: "AI readiness is loop readiness, not warehouse readiness"
-description: "You do not need eighteen months of data cleanup before AI can run. Cross-industry proof that runtime intelligence, fuzzy matching, and MCP connectors beat consulting-led MDM programs."
+subtitle: "Start first. Start small. Start now."
+description: "Start first beats waiting for ready. An operator on iteration, messy data, and what four years of building looks like when you begin."
 pubDate: 2026-06-21
-draft: true
+draft: false
 ---
 
 # Start Now
 
-The AI readiness deck always ends the same way. Phase zero is eighteen months of data cleanup. Phase one is a data governance council. Phase two is a harmonized golden record in a lake somewhere. Phase three, finally, is a pilot.
+The big IT initiative playbook ran like this. The assessment. The design thinking session. The wall of post-it notes, dissecting every feature before anyone builds anything. Business cases. Then months, sometimes years, of development to deliver a product users marginally accept.
 
-By the time the pilot starts, the market moved.
+I am not interested in that anymore. I am interested in motion. Small motion. Controlled motion. Real motion on a real workflow, with a real operator at the validate gate, learning from what breaks.
 
-I have sat through enough of these programs to recognize the shape. Assess. Cleanse. Harmonize. Migrate. Then, maybe, automate. The slide deck always shows a tidy funnel from messy sources on the left to a single source of truth on the right, with AI waiting patiently at the end like dessert.
+Start first. Start small. Start now.
 
-That is not AI strategy. That is a consulting engagement with a chatbot on the last slide.
-
----
-
-## The old economics made the playbook rational
-
-For a long time, the playbook made sense. Matching records required exact keys. Inspecting documents required humans. Sampling was cheaper than looking at everything. If you wanted analytics at scale, you ETL'd data into a warehouse, defined the schema up front, and treated the lake as the prerequisite for anything intelligent downstream.
-
-Golden records were not vanity. They were how you kept the same customer from existing five times across five systems. Master data management was how you kept invoice matching from failing every time a vendor abbreviated a store name differently.
-
-Rip-and-replace was expensive, so organizations learned to plan big before they moved. That was rational when the cost of inference was high and the cost of storage and schema design was the bottleneck.
-
-What changed is not that clean data stopped mattering. What changed is where and when the cleaning happens.
+That is the whole idea.
 
 ---
 
-## Inference moved to the edge
+## Look at what starting produced
 
-Today, a meaningful share of data work can happen at read time. An agent can open a PDF, a scan, an email attachment, or a row in a legacy table and extract the fields it needs for the task in front of it. It can fuzzy-match a policy number, a supplier name, or a product description against a reference file that is itself imperfect. It can compare a purchase order to an invoice when the SKUs do not line up exactly. It can route the ambiguous cases to a human who understands context.
+In 2022, four MIT computer science graduates founded Anysphere and built Cursor. Michael Truell, the CEO, is twenty-five. They started on a problem they understood, for users they knew, on codebases that were never clean. They shipped. They iterated. They kept the team lean. They did not wait for the enterprise to get ready for them.
 
-That is a different architecture than normalize everything first, then automate.
+Four years later, the company had surpassed three billion dollars in annual recurring revenue. In June 2026, SpaceX announced an agreement to acquire Cursor in a deal valued at sixty billion dollars.
 
-The loop from [The Loop](/writing/the-loop/) still applies. Detect. Triage. Act. Validate. Learn. Repeat. The difference is that triage and act no longer assume pristine inputs. The agent meets the data where it lives, applies judgment, and leaves an audit trail at the validate step. Cleanup becomes a byproduct of running loops, not a gate that blocks every loop from starting.
+I am not telling you to copy a startup. I am telling you to notice the shape. A small group started first. They learned in public. The market responded to the learning, not to a readiness deck.
 
-Everyone Builds was about who participates when build compresses. The Loop was about how work closes. Start Now is about what you stop waiting for.
-
----
-
-## Good enough is already running your business
-
-Here is the question the readiness deck never asks. If the data is not good enough for AI, how is it good enough for the humans making decisions in your operation today?
-
-Adjusters approve claims on incomplete files. AP clerks reconcile invoices when the SKU does not line up. KYC analysts pull judgment out of hundred-page corporate files. Nurses and utilization staff push prior authorization through fragmented records. Dispatchers, underwriters, contract managers, and buyer teams work around the gaps every day. The business does not wait for a golden record before it moves money, releases work, or serves a customer.
-
-Humans compensate. They hold context in their heads. They call a colleague who knows the account. They open three systems and stitch the story together by hand. They know which vendor abbreviates which way and which exception is normal for which customer. That is not a data quality failure. That is how work actually gets done inside imperfect systems.
-
-AI does not need cleaner inputs than your people already use. It needs the same inputs, the same standards, and the same validate gate your best operator already applies. The agent can fuzzy-match, extract, and recommend at a speed no manual process can sustain. The human still owns the call when the match is ambiguous, the document is incomplete, or the liability is real.
-
-If your data were truly unusable, your business would have stopped already. It did not. Perfection is the enemy of progress. Waiting for clean data before you start is often a way to defer the accountability of running a real workflow in production.
+That is available inside incumbent organizations too. Not at venture speed. Not with venture capital. But the same physics apply. Pick something. Build something. Run it. Improve it. The organizations that win are not the ones that waited longest. They are the ones that started earliest and iterated honestly.
 
 ---
 
-## Healthcare: shared rails, broken records
+## What I learned on stage
 
-Healthcare has spent years on interoperability. CMS rules created shared technical rails between payers and providers. That is real progress. It is also not the same as shared truth inside a provider organization.
+A few years ago I stood in front of a room and quoted the statistic everyone quotes. Eighty-five percent of AI projects fail. I had used versions of that line before. It gets attention. It makes the room sit up straight.
 
-Duplicate patient records still show up. Diagnosis and procedure coding is still inconsistent. Authorization history still lives in disconnected systems. Clinical narrative still sits in notes that were never structured for downstream use. If you wait for the EHR to become clean before you automate prior authorization, you will wait forever.
+My answer in that same talk was not to stop. It was to start small, start fast, and iterate in controlled scope. That was the counter then. It is still the counter. The difference is what I lead with now.
 
-The operators making progress start at one clinic, not one enterprise data model. They pull structured data through FHIR APIs where it exists. They use clinical NLP on the unstructured notes where it does not. They assemble the packet, flag the gaps, and route medical necessity judgment to a human who knows the case. They improve the workflow in production instead of commissioning another data architecture study.
+I lead with start.
 
-The mess does not disappear. It gets read, triaged, and validated inside the loop.
+The Gartner forecast behind the eighty-five percent figure, if you look it up, was about erroneous outcomes from bias and execution quality, not a scorecard of abandoned projects. The number got flattened over time. Other studies since measure other things. They are worth knowing. They are not a reason to stand still.
 
----
-
-## Legal: connect, do not rebuild
-
-Legal teams know the graveyard. Thousands of legacy contracts in SharePoint, shared drives, email threads, and scanned PDFs from decades of deal-making. The digital transformation project always starts with the same bottleneck: someone has to read every file and type metadata into the new CLM before the new CLM is useful.
-
-That is manual labor wearing a strategy hat.
-
-The teams getting out of it connect to the repository in place. No migration project. No six-month inventory phase. The agent reads the files where they already live, extracts parties, dates, obligations, renewal windows, and risk flags, and attaches a confidence score to each field. A reviewer validates side by side with the source document. One healthcare enterprise extracted structured data from eight thousand legacy vendor contracts in three weeks for a CLM migration that manual review had scoped at six months.
-
-Not perfect extraction on day one. Good enough to run the loop, with humans owning the exceptions.
+I take fear out of the equation by starting. Not by pretending risk is gone. By putting something small in production, putting a human on the gate, and learning faster than a deck can teach you.
 
 ---
 
-## Insurance: integrate over legacy, not after it
+## What your operators already prove
 
-Insurance claims are document problems wearing workflow clothes. Photos. Handwritten notes. Police reports. Repair estimates. Medical records. Each claim arrives as a different package from a different channel, and the core systems that hold policy and billing data were never designed to ingest that variety cleanly.
+Some consultants will pitch a data management engagement to get your data ready for AI. Clean it up first, then automate. It sounds responsible. It can also become the same playbook in a different costume: assess, harmonize, wait, and defer the workflow that would actually teach you what is broken.
 
-The old answer was another intake team. The better answer is an integration layer that sits over Guidewire, Duck Creek, CRM, and whatever else you already run. Intelligent document processing extracts the fields. Fuzzy matching links the claim to the policy record even when the number on the form does not exactly match the number in the core system. Low-confidence extractions go to an adjuster with a pre-populated summary. Straightforward claims move faster. Complex claims still get human judgment.
+If your data is not good enough for AI, how is it good enough for the people making decisions in your operation today?
 
-Production case studies report classification across a dozen document types at high accuracy, field-level confidence scores, and automated triage that routes only the exceptions. None of that required replacing the core suite first.
+Your teams work around gaps every day. They hold context. They call the colleague who knows the account. They stitch together three systems by hand. They know which exceptions are normal and which ones escalate. That is not a failure of data quality. That is how work gets done inside real systems.
 
----
+AI should meet that same reality. Same inputs. Same standard. Same validate gate. Not a cleaner warehouse that does not exist yet.
 
-## Banking: analysts validate, they do not read
-
-I spent years in financial services. The compliance problem looks like a data problem until you watch how the work actually gets done. A corporate client file is hundreds of pages, multilingual, non-standard, full of tables and footnotes that do not fit a template. KYC analysts were hired to read, not to decide.
-
-A global tier-one bank ran a client due diligence modernization without ripping out its existing KYC platform. Layout-aware extraction pulled required fields from complex documents inside their AWS environment. Structured outputs fed the workflows they already had. Analysts shifted from reading every page to validating extracted fields and investigating exceptions.
-
-That is the pattern. The machine does the first pass at scale. The human owns the gate when liability and context matter. You do not need a bank-wide data lake before you run that loop on KYC refresh or onboarding packets.
+Perfection is the enemy of progress. That does not mean skip accountability. It means do not let perfect become the reason you never learn what ninety days of building would show you.
 
 ---
 
-## Retail: real AP data is never clean
+## How to start
 
-Retail accounts payable is where the golden-record fantasy goes to die. The same store appears as Santa Monica, Santa Mon, and SM on different invoices. The supplier's item code is not your SKU. The invoice shows a twelve-pack; the goods-received record shows a twenty-four-pack; the physical quantity is the same but the line-level join fails.
+Pick one workflow where delay is already costing you something. Scope it small enough to control. Connect to the systems you already run. Encode what good looks like at the validate step. Put your best person on the exceptions. Run it. Measure cycle time from signal to validated close. Improve from what you learn. Expand when the loop earns it.
 
-Exact-match automation breaks immediately because real-world AP data is never exact.
+Start first means the workflow comes before the enterprise program.
 
-Grocery operators processing tens of thousands of invoices a month use configurable fuzzy lookup against reference tables, with thresholds tuned to catch abbreviations without creating false matches. Catalog harmonization pipelines combine vector similarity for speed with AI classification for ambiguous pairs. The AP clerk still owns the exception when pack size, substitution, or catch-weight logic does not resolve automatically.
+Start small means one team, one process, one gate.
 
-You do not wait for a perfect product catalog. You run matching with tolerance, inspect the misses, and encode the standard your best clerk already uses.
-
----
-
-## Entity resolution without the MDM program
-
-The same pattern shows up everywhere matching matters. Block the search space so you are not comparing every record to every record. Apply fuzzy logic for typos, formatting, and phonetic variation. Use a model to adjudicate the borderline cases humans used to fight over in spreadsheets.
-
-Cloud providers now ship entity resolution with Levenshtein, Soundex, and cosine similarity built in, configurable thresholds, no custom preprocessing required. Research pipelines combine semantic embeddings with deterministic fuzzy verification and report high recall on real-world linkage problems running on standard infrastructure.
-
-The math of matching changed. The consulting timeline often did not.
+Start now means the next ninety days teach you more than the next ninety pages of assessment.
 
 ---
 
-## What still breaks
+Start first. Start small. Start now.
 
-I am not arguing that data quality is irrelevant. I am not arguing that every workflow should go straight to autonomous execution. I am arguing that enterprise-wide cleanup is a bad reason to delay every AI workflow, and that the bar for "good enough to start" is lower than the readiness deck implies.
-
-Critics are right about several things.
-
-Some problems still need durable master data. Patient identity at scale. Regulatory reporting to a defined golden source. Sanctions and AML screening where false negatives carry legal exposure. Audit trails that must survive examination. Security boundaries around PII, access control, and production system exposure. Those are real constraints, not impatience.
-
-Critics are also right that runtime inference has a cost. Repeated extraction and matching at volume can be more expensive than deterministic rules on pre-cleaned data. MCP connectors without governance can become integration sprawl. Plausible AI output without a validate gate is worse than slow manual work.
-
-I agree with all of that.
-
-What I reject is the sequencing error. The belief that no loop may start until the enterprise finishes harmonizing. The deck that treats AI as phase four of a data program your organization has been deferring for a decade. The vendor who sells cleanup as the prerequisite because cleanup is what they sell.
-
-What fails is automating act without validate. If you cannot describe what good looks like at the proof gate, you are not ready to accelerate anything. You are accelerating chaos. Garbage in, garbage out still applies when nobody owns the exception queue.
-
-What succeeds looks like this. Start on the workflow where humans already decide on messy data every day. Connect live systems read-only. Encode the standard your best operator uses. Route low-confidence output to that operator. Log what the agent accessed and what it proposed. Improve the loop from production learning, not from another architecture phase.
-
-Standards at validate. Not perfection in the warehouse.
-
-Targeted hygiene inside a running loop beats a multi-year program that never reaches production. Acknowledge the risks. Design the gates. Start anyway.
-
----
-
-## Connect first
-
-If the alternative to a data lake is not "do nothing," what is it?
-
-Connect your agents to the systems you already run.
-
-The Model Context Protocol is an open standard for that connection. An MCP host is the agent. An MCP server exposes tools, resources, and prompts from your ERP, CRM, ticketing system, document store, or internal API. Instead of writing a bespoke integration for every agent and every system, you speak a common protocol. Microsoft is shipping Dynamics 365 ERP MCP servers for exactly this reason: agents that can execute business operations without a custom connector farm for every use case.
-
-The operator pattern I recommend is boring on purpose.
-
-Start read-only. Pick one workflow that matters. Build or deploy an MCP server, or a governed tool wrapper if MCP is not available yet, that lets the agent query live data where the work actually happens. Encode the validate standard. Put a human on the gate. Log what the agent accessed and what it proposed. Expand write scope only with explicit approval.
-
-Watch for the same trap in a new costume. A vendor who sells you a unified harmonization layer that must be populated before your MCP server can talk to anything has rebuilt the data lake slide with different fonts. Prefer thin connectors per system plus agent-side inference over another eighteen-month consolidation program.
-
-I run my own assistant this way. Read-only connectors over email, calendar, and repo scripts first. Approval gates before any write. The agent meets messy real inboxes and real files. It does not wait for me to migrate my life into a pristine database.
-
-Your operation already has a language. The agent should learn to speak it, not wait for you to translate the whole company into a new one.
-
----
-
-## Start with one
-
-You do not need an enterprise AI strategy to begin. You need one loop, one connector, and one validate gate.
-
-Pick the workflow where manual reconciliation is obviously expensive. Connect the systems that hold the inputs. Let the agent extract, match, and recommend at runtime. Measure cycle time from detect to validated close. Capture what the loop learns and encode it for the next pass.
-
-The company selling a data cleanup engagement before AI is usually selling consulting. The company shipping an MCP server over your existing stack is selling leverage.
-
-Your operators already run on the data you have. Start there. Improve there. Do not let perfect become the reason nothing ships.
-
-Start small. Start real. Connect first. Run the loop on the data you have, not the data you wish you had.
-
-What workflow are you not starting because someone sold you a cleanup program first?
+What would you know in ninety days if you started this week?

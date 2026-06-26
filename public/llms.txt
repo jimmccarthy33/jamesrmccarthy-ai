@@ -20,6 +20,7 @@ James R. McCarthy (Jim McCarthy) is Chief Operating Officer at Vixxo. He owns a 
 - [Writing](https://jamesrmccarthy.ai/writing/): Operator essays
 - [Everyone Builds](https://jamesrmccarthy.ai/writing/everyone-builds/): Manifesto on AI-native operating models
 - [The Loop](https://jamesrmccarthy.ai/writing/the-loop/): Detect, Triage, Act, Validate, Learn, Repeat
+- [Start Now](https://jamesrmccarthy.ai/writing/start-now/): Start first, start small, start now
 - [Resume PDF](https://jamesrmccarthy.ai/james-r-mccarthy-resume.pdf)
 
 ## Optional
