@@ -3,6 +3,6 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://jamesrmccarthy.ai',
+  site: 'https://www.jamesrmccarthy.ai',
   integrations: [sitemap()],
 });

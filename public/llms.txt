@@ -11,19 +11,19 @@ James R. McCarthy (Jim McCarthy) is Chief Operating Officer at Vixxo. He owns a 
 - Role: Chief Operating Officer, Vixxo
 - Email: jamesrmccarthy@gmail.com
 - LinkedIn: https://www.linkedin.com/in/jimmccarthy
-- Site: https://jamesrmccarthy.ai
+- Site: https://www.jamesrmccarthy.ai
 
 ## Key pages
 
-- [Home](https://jamesrmccarthy.ai/): Thesis, track record, manifesto
-- [About](https://jamesrmccarthy.ai/about/): Career arc and resume (PDF)
-- [Writing](https://jamesrmccarthy.ai/writing/): Operator essays
-- [Everyone Builds](https://jamesrmccarthy.ai/writing/everyone-builds/): Manifesto on AI-native operating models
-- [The Loop](https://jamesrmccarthy.ai/writing/the-loop/): Detect, Triage, Act, Validate, Learn, Repeat
-- [Start Now](https://jamesrmccarthy.ai/writing/start-now/): Start first, start small, start now
-- [Resume PDF](https://jamesrmccarthy.ai/james-r-mccarthy-resume.pdf)
+- [Home](https://www.jamesrmccarthy.ai/): Thesis, track record, manifesto
+- [About](https://www.jamesrmccarthy.ai/about/): Career arc and resume (PDF)
+- [Writing](https://www.jamesrmccarthy.ai/writing/): Operator essays
+- [Everyone Builds](https://www.jamesrmccarthy.ai/writing/everyone-builds/): Manifesto on AI-native operating models
+- [The Loop](https://www.jamesrmccarthy.ai/writing/the-loop/): Detect, Triage, Act, Validate, Learn, Repeat
+- [Start Now](https://www.jamesrmccarthy.ai/writing/start-now/): Start first, start small, start now
+- [Resume PDF](https://www.jamesrmccarthy.ai/james-r-mccarthy-resume.pdf)
 
 ## Optional
 
-- [RSS feed](https://jamesrmccarthy.ai/rss.xml)
-- [Sitemap](https://jamesrmccarthy.ai/sitemap-index.xml)
+- [RSS feed](https://www.jamesrmccarthy.ai/rss.xml)
+- [Sitemap](https://www.jamesrmccarthy.ai/sitemap-index.xml)

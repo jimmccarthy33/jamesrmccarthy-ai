@@ -19,4 +19,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://jamesrmccarthy.ai/sitemap-index.xml
+Sitemap: https://www.jamesrmccarthy.ai/sitemap-index.xml

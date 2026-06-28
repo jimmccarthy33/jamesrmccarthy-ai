@@ -3,7 +3,7 @@ export const site = {
   legalName: 'James R. McCarthy',
   title: 'Operator · COO · Builder',
   email: 'jamesrmccarthy@gmail.com',
-  url: 'https://jamesrmccarthy.ai',
+  url: 'https://www.jamesrmccarthy.ai',
   linkedin: 'https://www.linkedin.com/in/jimmccarthy',
   description:
     'James R. McCarthy (Jim McCarthy) is a C-suite operator with a technology background. His thesis: AI-native operating models produce startup build velocity at incumbent scale.',
