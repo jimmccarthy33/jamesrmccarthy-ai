@@ -6,8 +6,6 @@ pubDate: 2026-06-19
 draft: false
 ---
 
-# Everyone Builds
-
 Cursor started with four friends. MIT computer science backgrounds. They set out to build a coding harness using AI-generated code. They were all coders. They were all builders. The company stayed lean. Small team. And everyone at Cursor is a builder.
 
 That is a model worth paying attention to.

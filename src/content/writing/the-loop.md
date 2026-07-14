@@ -6,8 +6,6 @@ pubDate: 2026-06-21
 draft: false
 ---
 
-# The Loop
-
 A work order lands in the queue. Someone saw it. A status field got updated. A report went out on Friday.
 
 The customer still does not have a technician. The invoice still does not match the quote. The follow-up still did not happen.

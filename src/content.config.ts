@@ -9,6 +9,8 @@ const writing = defineCollection({
     subtitle: z.string().optional(),
     description: z.string(),
     pubDate: z.coerce.date(),
+    keywords: z.array(z.string()).optional(),
+    ogImage: z.string().optional(),
     draft: z.boolean().default(false),
   }),
 });

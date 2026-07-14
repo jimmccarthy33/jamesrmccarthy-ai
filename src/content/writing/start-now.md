@@ -6,8 +6,6 @@ pubDate: 2026-06-25
 draft: false
 ---
 
-# Start Now
-
 The big IT initiative playbook ran like this. The assessment. The design thinking session. The wall of post-it notes, dissecting every feature before anyone builds anything. Business cases. Then months, sometimes years, of development to deliver a product users marginally accept.
 
 I am not interested in that anymore. I am interested in motion. Small motion. Controlled motion. Real motion on a real workflow, with a real operator at the validate gate, learning from what breaks.
