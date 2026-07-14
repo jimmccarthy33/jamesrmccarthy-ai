@@ -2,7 +2,7 @@
 
 > AI-native operating models produce startup build velocity at incumbent scale. Builder and product roles are converging. A small team with the right stack outruns a large team on legacy process.
 
-James R. McCarthy (Jim McCarthy) is Chief Operating Officer at Vixxo. He owns a $495M P&L within a $600M+ technology-enabled facilities platform and writes about AI-native operating models and what happens when build compresses inside incumbent organizations.
+James R. McCarthy (Jim McCarthy) is Chief Operating Officer at Vixxo. He owns a $495M P&L within a $600M+ technology-enabled facilities platform and writes about AI-native operating models and what happens when build compresses inside incumbent organizations. His anchor thesis, Decision Velocity: now that AI has made building nearly free, the scarce resource is the speed and judgment of deciding, not the size of the plan or the budget.
 
 ## Canonical identity
 
