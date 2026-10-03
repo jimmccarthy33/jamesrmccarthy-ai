@@ -6,11 +6,11 @@ export const site = {
   url: 'https://www.jamesrmccarthy.ai',
   linkedin: 'https://www.linkedin.com/in/jimmccarthy',
   description:
-    'Jim McCarthy is President of Case FMS, a leading provider of exterior facility maintenance services across the United States and Canada, with more than 35,000 client locations. He is responsible for operational execution, the company\'s growth, and its proprietary technology.',
+    'I have the privilege of leading Case FMS, a leading provider of exterior facility maintenance across the United States and Canada, with more than 35,000 client locations. We use AI as a differentiator, to elevate and reinforce the quality of the service. Validation is one of the ways: the work outside gets confirmed, so clients, service partners, and our teams are looking at the same result.',
   thesis:
-    'AI-native operating models produce startup build velocity at incumbent scale. Builder and product roles are converging. A small team with the right stack outruns a large team on legacy process.',
+    'We use AI as a differentiator, to elevate and reinforce the quality of the service. Validation is one of the ways: the work outside gets confirmed, so clients, service partners, and our teams are looking at the same result.',
   credential:
-    'I am President of Case FMS, a leading provider of exterior facility maintenance services across the United States and Canada, with more than 35,000 client locations. I am responsible for operational execution, the company\'s growth, and its proprietary technology.',
+    'I have the privilege of leading Case FMS, a leading provider of exterior facility maintenance across the United States and Canada, with more than 35,000 client locations.',
   scope: 'I write about the work, the tools, golf with my son, and care at home.',
   role: 'President of Case FMS',
   jobTitle: 'President',

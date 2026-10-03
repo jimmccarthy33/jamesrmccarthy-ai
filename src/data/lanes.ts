@@ -1,3 +1,5 @@
+import { site } from './site';
+
 export const laneIds = ['ai', 'golf', 'care', 'facilities'] as const;
 
 export type LaneId = (typeof laneIds)[number];
@@ -55,8 +57,7 @@ export const lanes: Record<
   },
   facilities: {
     title: 'Facilities',
-    description:
-      'Jim McCarthy is President of Case FMS, a leading provider of exterior facility maintenance services across the United States and Canada, with more than 35,000 client locations. He is responsible for operational execution, the company\'s growth, and its proprietary technology.',
+    description: `${site.credential} ${site.thesis}`,
     path: '/facilities',
   },
 };

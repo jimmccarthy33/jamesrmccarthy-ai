@@ -70,7 +70,7 @@ export type Role = {
 
 export const resume = {
   summary:
-    'President of Case FMS. Case is a leading provider of exterior facility maintenance services across the United States and Canada, with more than 35,000 client locations. I am responsible for operational execution, the company\'s growth, and its proprietary technology. Before that, I ran a $495M P&L on a $600M+ facilities platform. Over two decades I have scaled complex, service-based businesses in private-equity-backed and public-company environments, from M&A integration and five-nines infrastructure to public-company turnaround and AI-native operating systems shipped in months, not years.',
+    'I have the privilege of leading Case FMS, a leading provider of exterior facility maintenance across the United States and Canada, with more than 35,000 client locations. We use AI as a differentiator, to elevate and reinforce the quality of the service. Validation is one of the ways: the work outside gets confirmed, so clients, service partners, and our teams are looking at the same result. Before that, I ran a $495M P&L on a $600M+ facilities platform. Over two decades I have scaled complex, service-based businesses in private-equity-backed and public-company environments, from M&A integration and five-nines infrastructure to public-company turnaround and AI-native operating systems shipped in months, not years.',
   /** Most recent first — used on About page */
   roles: [
     {
@@ -78,8 +78,8 @@ export const resume = {
       title: 'President',
       period: '2026 – Present',
       bullets: [
-        'Leading provider of exterior facility maintenance services across the United States and Canada, with more than 35,000 client locations.',
-        'Responsible for operational execution, the company\'s growth, and its proprietary technology.',
+        'Leading provider of exterior facility maintenance across the United States and Canada, with more than 35,000 client locations.',
+        'We use AI as a differentiator, to elevate and reinforce the quality of the service. Validation is one of the ways: the work outside gets confirmed, so clients, service partners, and our teams are looking at the same result.',
       ],
     },
     {

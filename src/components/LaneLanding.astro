@@ -23,10 +23,10 @@ const posts = (await getCollection('writing', ({ data }) => !data.draft && data.
       {
         lane === 'ai' && (
           <>
-            <p class="page-header__subtitle">{site.thesis}</p>
+            <p class="page-header__subtitle">{meta.description}</p>
             <p>
-              These essays are that argument at ground level. Build got cheap. Deciding did not.
-              The loop still has to close, and more of the people closest to the work can build.
+              These essays stay with the work. Build got cheap. Deciding did not. The loop still
+              has to close, and more of the people closest to the work can build.
             </p>
           </>
         )
@@ -64,14 +64,9 @@ const posts = (await getCollection('writing', ({ data }) => !data.draft && data.
       {
         lane === 'facilities' && (
           <>
-            <p>
-              I am President of Case FMS. Case is a leading provider of exterior facility maintenance
-              services across the United States and Canada, with more than 35,000 client locations.
-              Shannon Kenny joined as Chief Operating Officer.
-              I am responsible for operational execution, the company's growth, and its proprietary
-              technology, including AI aimed at service validation, portfolio visibility, and
-              coordination among clients, service partners, and our own teams.
-            </p>
+            <p>{site.credential}</p>
+            <p>Shannon Kenny joined as Chief Operating Officer.</p>
+            <p>{site.thesis}</p>
             <p>
               <a href="https://blog.casefms.com/resources/case-strengthens-executive-leadership-with-appointment-of-president-and-chief-operating-officer">
                 Case Strengthens Executive Leadership with Appointment of President and Chief
