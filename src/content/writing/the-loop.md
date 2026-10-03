@@ -3,6 +3,7 @@ title: "The Loop"
 subtitle: "How work actually closes"
 description: "AI strategy is measured in operating loops, not pilot counts. An operator's framework for Detect, Triage, Act, Validate, Learn, Repeat, and why closed loops beat dashboards."
 pubDate: 2026-06-21
+lane: ai
 draft: false
 ---
 

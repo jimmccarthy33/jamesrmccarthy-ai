@@ -22,14 +22,14 @@ import { resume } from '../data/resume';
         <figure class="about-portrait">
           <img
             src="/images/jim-mccarthy-portrait.jpg"
-            alt="James R. McCarthy"
+            alt="Jim McCarthy"
             width="655"
             height="1024"
             loading="eager"
           />
         </figure>
         <p>
-          I am {site.legalName}. I go by Jim. {resume.summary}
+          I'm Jim McCarthy. {resume.summary}
         </p>
         <p>
           I believe AI-native operating models produce startup build velocity at incumbent scale.
@@ -80,11 +80,15 @@ import { resume } from '../data/resume';
                   </span>
                 )}
               </h3>
-              <ul>
-                {role.bullets.map((bullet) => (
-                  <li>{bullet}</li>
-                ))}
-              </ul>
+              {
+                role.bullets.length > 0 && (
+                  <ul>
+                    {role.bullets.map((bullet) => (
+                      <li>{bullet}</li>
+                    ))}
+                  </ul>
+                )
+              }
             </div>
           ))
         }

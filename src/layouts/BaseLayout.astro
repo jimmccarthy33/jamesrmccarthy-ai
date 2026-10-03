@@ -41,15 +41,15 @@ const personSchema = {
   givenName: 'James',
   familyName: 'McCarthy',
   additionalName: 'R.',
-  jobTitle: 'Chief Operating Officer',
+  jobTitle: site.jobTitle,
   worksFor: {
     '@type': 'Organization',
-    name: 'Vixxo',
+    name: site.employer,
   },
   url: site.url,
   email: site.email,
   sameAs: [site.linkedin, site.url],
-  description: site.thesis,
+  description: site.description,
   knowsAbout: [
     'AI-native operating models',
     'Continuous improvement',

@@ -16,7 +16,7 @@ export const trackRecord: TrackRecordItem[] = [
   {
     number: '02',
     headline:
-      '$495M P&L on a $600M+ platform — 2M+ work orders a year, 3,500+ service providers, 150,000+ technicians',
+      'Prior operating seat: $495M P&L on a $600M+ platform — 2M+ work orders a year, 3,500+ service providers, 150,000+ technicians',
   },
   {
     number: '03',
@@ -70,18 +70,27 @@ export type Role = {
 
 export const resume = {
   summary:
-    'Operations executive leading one of the few genuine AI-native operating-model transformations in hard services. $495M P&L within a $600M+ technology-enabled facilities platform. Over two decades I have scaled complex, service-based businesses in private-equity-backed and public-company environments, from M&A integration and five-nines infrastructure to public-company turnaround and AI-native operating systems shipped in months, not years.',
+    'President of Case FMS. Case is a leading provider of exterior facility maintenance services across the United States and Canada, with more than 35,000 client locations. I am responsible for operational execution, the company\'s growth, and its proprietary technology. Before that, I ran a $495M P&L on a $600M+ facilities platform. Over two decades I have scaled complex, service-based businesses in private-equity-backed and public-company environments, from M&A integration and five-nines infrastructure to public-company turnaround and AI-native operating systems shipped in months, not years.',
   /** Most recent first — used on About page */
   roles: [
     {
+      company: 'Case FMS',
+      title: 'President',
+      period: '2026 – Present',
+      bullets: [
+        'Leading provider of exterior facility maintenance services across the United States and Canada, with more than 35,000 client locations.',
+        'Responsible for operational execution, the company\'s growth, and its proprietary technology.',
+      ],
+    },
+    {
       company: 'Vixxo',
       title: 'Chief Operating Officer (formerly CTO and Chief Technology & Supply Chain Officer)',
-      period: '2019 – Present',
+      period: '2019 – 2026',
       location: 'Scottsdale, AZ',
       bullets: [
         'Elevated through three successive C-suite mandates across two ownership groups at a national facilities platform backed by Wind River Holdings and Braemont Capital.',
         '$495M P&L within a $600M+ platform: 2M+ work orders a year, 3,500+ service providers, 150,000+ technicians, $450M third-party spend.',
-        'Leading Vixxo into an AI-first operating model: frontier models and agentic workflows at the core of how the business plans, decides, and serves customers.',
+        'Led Vixxo into an AI-first operating model: frontier models and agentic workflows at the core of how the business plans, decides, and serves customers.',
         'Brought in to deliver VixxoLink, a program and product turnaround more than two years late and over budget; delivered launch in nine months through execution discipline and product management methodology.',
         'Built and deployed VITA, a technician virtual assistant that raises proficiency, reduces time on task, and increases daily service capacity in the field.',
         'Expanded the operating environment to run and control performance across the full service-provider network.',

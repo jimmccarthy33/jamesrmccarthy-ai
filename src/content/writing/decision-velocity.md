@@ -13,6 +13,8 @@ keywords:
   - Cursor
   - AI governance
   - operator thesis
+lane: ai
+series: decision-velocity
 draft: false
 ---
 

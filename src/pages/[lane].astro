@@ -1,0 +1,19 @@
+---
+import LaneLanding from '../components/LaneLanding.astro';
+import { laneIds, type LaneId } from '../data/lanes';
+
+export function getStaticPaths() {
+  return laneIds.map((lane) => ({
+    params: { lane },
+    props: { lane },
+  }));
+}
+
+interface Props {
+  lane: LaneId;
+}
+
+const { lane } = Astro.props;
+---
+
+<LaneLanding lane={lane} />

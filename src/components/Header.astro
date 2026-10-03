@@ -9,14 +9,17 @@ const { currentPath = '/' } = Astro.props;
 
 const nav = [
   { href: '/writing', label: 'Writing' },
+  { href: '/ai', label: 'AI' },
+  { href: '/golf', label: 'Golf' },
+  { href: '/care', label: 'Care' },
+  { href: '/facilities', label: 'Facilities' },
   { href: '/about', label: 'About' },
-  { href: '/contact', label: 'Contact' },
 ];
 ---
 
 <header class="site-header">
   <div class="container site-header__inner">
-    <a class="site-header__brand" href="/">{site.legalName}</a>
+    <a class="site-header__brand" href="/">{site.name}</a>
     <nav aria-label="Primary">
       <ul class="site-nav">
         {

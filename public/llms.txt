@@ -2,23 +2,31 @@
 
 > AI-native operating models produce startup build velocity at incumbent scale. Builder and product roles are converging. A small team with the right stack outruns a large team on legacy process.
 
-James R. McCarthy (Jim McCarthy) is Chief Operating Officer at Vixxo. He owns a $495M P&L within a $600M+ technology-enabled facilities platform and writes about AI-native operating models and what happens when build compresses inside incumbent organizations. His anchor thesis, Decision Velocity: now that AI has made building nearly free, the scarce resource is the speed and judgment of deciding, not the size of the plan or the budget.
+James R. McCarthy (Jim McCarthy) is President of Case FMS, a leading provider of exterior facility maintenance services across the United States and Canada, with more than 35,000 client locations. He is responsible for operational execution, the company's growth, and its proprietary technology. He writes about the operating work, the tools, golf with his son, and care at home. The AI essays argue decision velocity: now that building is nearly free, the scarce resource is the speed and judgment of deciding.
 
 ## Canonical identity
 
 - Name: James R. McCarthy
 - Goes by: Jim McCarthy
-- Role: Chief Operating Officer, Vixxo
+- Role: President of Case FMS. Leading provider of exterior facility maintenance services across the United States and Canada, with more than 35,000 client locations. Responsible for operational execution, the company's growth, and its proprietary technology.
+- Prior role: Chief Operating Officer, Vixxo (2019–2026)
 - Email: jamesrmccarthy@gmail.com
 - LinkedIn: https://www.linkedin.com/in/jimmccarthy
 - Site: https://www.jamesrmccarthy.ai
 
+## Lanes
+
+- [AI](https://www.jamesrmccarthy.ai/ai/): Tools, decision velocity, closed loops
+- [Golf](https://www.jamesrmccarthy.ai/golf/): Behind the Build, the No Doubles series. Product: https://www.nodoublesgolfco.com/
+- [Care](https://www.jamesrmccarthy.ai/care/): Door only. Product writing stays at https://www.carevazo.com/
+- [Facilities](https://www.jamesrmccarthy.ai/facilities/): Case leadership writing. Company articles: https://blog.casefms.com/resources — announcement: https://blog.casefms.com/resources/case-strengthens-executive-leadership-with-appointment-of-president-and-chief-operating-officer
+
 ## Key pages
 
-- [Home](https://www.jamesrmccarthy.ai/): Thesis, track record, manifesto
+- [Home](https://www.jamesrmccarthy.ai/): Name, role, writing
 - [About](https://www.jamesrmccarthy.ai/about/): Career arc and resume (PDF)
-- [Writing](https://www.jamesrmccarthy.ai/writing/): Operator essays
-- [Build Is Free Now. Deciding Isn't.](https://www.jamesrmccarthy.ai/writing/decision-velocity/): Decision velocity is the scarce resource now that build is nearly free, argued through Linear vs Jira, Microsoft Copilot, and Cursor
+- [Writing](https://www.jamesrmccarthy.ai/writing/): All essays
+- [Build Is Free Now. Deciding Isn't.](https://www.jamesrmccarthy.ai/writing/decision-velocity/): Decision velocity is the scarce resource now that build is nearly free
 - [Everyone Builds](https://www.jamesrmccarthy.ai/writing/everyone-builds/): Manifesto on AI-native operating models
 - [The Loop](https://www.jamesrmccarthy.ai/writing/the-loop/): Detect, Triage, Act, Validate, Learn, Repeat
 - [Start Now](https://www.jamesrmccarthy.ai/writing/start-now/): Start first, start small, start now

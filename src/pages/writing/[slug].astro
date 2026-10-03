@@ -67,6 +67,12 @@ const articleSchema = {
       </p>
       <h1>{post.data.title}</h1>
       {post.data.subtitle && <p class="page-header__subtitle">{post.data.subtitle}</p>}
+      {post.data.originalUrl && (
+        <p class="editorial-row__meta">
+          First published on{' '}
+          <a href={post.data.originalUrl}>the No Doubles blog</a>.
+        </p>
+      )}
     </div>
   </header>
 

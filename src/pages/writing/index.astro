@@ -6,17 +6,25 @@ import { site } from '../../data/site';
 const posts = (await getCollection('writing', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+const laneLabel = {
+  ai: 'AI',
+  golf: 'Golf',
+  care: 'Care',
+  facilities: 'Facilities',
+} as const;
 ---
 
 <BaseLayout
   title="Writing"
-  description={`Essays on AI-native operating models by ${site.legalName} (${site.name}).`}
+  description={`Writing by ${site.legalName} (${site.name}) on the work, the tools, golf, and care at home.`}
   path="/writing"
 >
   <header class="page-header">
     <div class="container container--prose">
       <h1>Writing</h1>
-      <p class="page-header__subtitle">Operator essays. Sector-neutral. Operating model only.</p>
+      <p class="page-header__subtitle">
+        The work, the tools, golf, and care at home.
+      </p>
     </div>
   </header>
 
@@ -31,6 +39,8 @@ const posts = (await getCollection('writing', ({ data }) => !data.draft)).sort(
                 month: 'long',
                 day: 'numeric',
               })}
+              {' · '}
+              {laneLabel[post.data.lane]}
             </p>
             <h2 class="editorial-row__title">
               <a href={`/writing/${post.id}`}>{post.data.title}</a>

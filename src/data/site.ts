@@ -1,16 +1,20 @@
 export const site = {
   name: 'Jim McCarthy',
   legalName: 'James R. McCarthy',
-  title: 'Operator · COO · Builder',
+  title: 'President · Operator · Builder',
   email: 'jamesrmccarthy@gmail.com',
   url: 'https://www.jamesrmccarthy.ai',
   linkedin: 'https://www.linkedin.com/in/jimmccarthy',
   description:
-    'James R. McCarthy (Jim McCarthy) is a C-suite operator with a technology background. His thesis: AI-native operating models produce startup build velocity at incumbent scale.',
+    'Jim McCarthy is President of Case FMS, a leading provider of exterior facility maintenance services across the United States and Canada, with more than 35,000 client locations. He is responsible for operational execution, the company\'s growth, and its proprietary technology.',
   thesis:
     'AI-native operating models produce startup build velocity at incumbent scale. Builder and product roles are converging. A small team with the right stack outruns a large team on legacy process.',
-  credential: 'Sitting COO with prior CTO ownership at PE backed and public company scale.',
-  role: 'Chief Operating Officer, Vixxo',
+  credential:
+    'I am President of Case FMS, a leading provider of exterior facility maintenance services across the United States and Canada, with more than 35,000 client locations. I am responsible for operational execution, the company\'s growth, and its proprietary technology.',
+  scope: 'I write about the work, the tools, golf with my son, and care at home.',
+  role: 'President of Case FMS',
+  jobTitle: 'President',
+  employer: 'Case FMS',
   pageTitle: 'James R. McCarthy (Jim McCarthy)',
   manifestoSlug: 'everyone-builds',
   contactSubtitle: 'Email works.',

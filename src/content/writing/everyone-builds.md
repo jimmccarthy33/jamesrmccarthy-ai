@@ -3,6 +3,7 @@ title: "Everyone Builds"
 subtitle: "An operating view on AI"
 description: "AI-native operating models let more people build at startup speed inside incumbent organizations. An operator's manifesto on continuous improvement, inverted bottlenecks, and human judgment elevated."
 pubDate: 2026-06-19
+lane: ai
 draft: false
 ---
 

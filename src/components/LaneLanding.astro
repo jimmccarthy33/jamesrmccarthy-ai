@@ -1,0 +1,134 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { site } from '../data/site';
+import { golfThreads, lanes, type LaneId } from '../data/lanes';
+
+interface Props {
+  lane: LaneId;
+}
+
+const { lane } = Astro.props;
+const meta = lanes[lane];
+const dateFormat = { year: 'numeric', month: 'long', day: 'numeric' } as const;
+const posts = (await getCollection('writing', ({ data }) => !data.draft && data.lane === lane)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+---
+
+<BaseLayout title={meta.title} description={meta.description} path={meta.path}>
+  <header class="page-header">
+    <div class="container container--prose">
+      <h1>{meta.title}</h1>
+      {
+        lane === 'ai' && (
+          <>
+            <p class="page-header__subtitle">{site.thesis}</p>
+            <p>
+              These essays are that argument at ground level. Build got cheap. Deciding did not.
+              The loop still has to close, and more of the people closest to the work can build.
+            </p>
+          </>
+        )
+      }
+      {
+        lane === 'golf' && (
+          <>
+            <p class="page-header__subtitle">Behind the Build</p>
+            <p>
+              No Doubles is a company my son Jimmy and I are building for average golfers. One clear
+              answer, not another tip. Behind the Build is the writing that came with it. Some of it
+              is the game and the people. Some of it is why instruction fails, and how learning
+              actually works.
+            </p>
+            <p>
+              <a href="https://www.nodoublesgolfco.com/">No Doubles</a>
+            </p>
+          </>
+        )
+      }
+      {
+        lane === 'care' && (
+          <>
+            <p>
+              Carevazo is a care tool my wife, my daughter, and I are building, from the person
+              outward. The Bob Miller Memorial Scholarship, in my father-in-law's name, is the other
+              commitment. Product guides stay on Carevazo. This page is only the door.
+            </p>
+            <p>
+              <a href="https://www.carevazo.com/">Carevazo</a>
+            </p>
+          </>
+        )
+      }
+      {
+        lane === 'facilities' && (
+          <>
+            <p>
+              I am President of Case FMS. Case is a leading provider of exterior facility maintenance
+              services across the United States and Canada, with more than 35,000 client locations.
+              Shannon Kenny joined as Chief Operating Officer.
+              I am responsible for operational execution, the company's growth, and its proprietary
+              technology, including AI aimed at service validation, portfolio visibility, and
+              coordination among clients, service partners, and our own teams.
+            </p>
+            <p>
+              <a href="https://blog.casefms.com/resources/case-strengthens-executive-leadership-with-appointment-of-president-and-chief-operating-officer">
+                Case Strengthens Executive Leadership with Appointment of President and Chief
+                Operating Officer
+              </a>
+            </p>
+            <p>
+              More company writing is on{' '}
+              <a href="https://blog.casefms.com/resources">Case Insights</a>.
+            </p>
+          </>
+        )
+      }
+    </div>
+  </header>
+
+  <section class="page-section">
+    <div class="container container--prose">
+      {
+        lane === 'golf' ? (
+          golfThreads.map((thread) => {
+            const threadPosts = posts.filter((post) => post.data.thread === thread.id);
+            return (
+              <section class="home-block" aria-labelledby={`thread-${thread.id}`}>
+                <h2 id={`thread-${thread.id}`}>{thread.title}</h2>
+                <p class="editorial-row__summary">{thread.dek}</p>
+                {threadPosts.map((post) => (
+                  <article class="editorial-row">
+                    <p class="editorial-row__meta">
+                      {post.data.pubDate.toLocaleDateString('en-US', dateFormat)}
+                    </p>
+                    <h3 class="editorial-row__title">
+                      <a href={`/writing/${post.id}`}>{post.data.title}</a>
+                    </h3>
+                    <p class="editorial-row__summary">{post.data.description}</p>
+                  </article>
+                ))}
+              </section>
+            );
+          })
+        ) : posts.length === 0 ? (
+          <p>No essays here yet.</p>
+        ) : (
+          posts.map((post) => (
+            <article class="editorial-row">
+              <p class="editorial-row__meta">
+                {post.data.pubDate.toLocaleDateString('en-US', dateFormat)}
+              </p>
+              <h2 class="editorial-row__title">
+                <a href={`/writing/${post.id}`}>{post.data.title}</a>
+              </h2>
+              {post.data.subtitle && <p class="editorial-row__summary">{post.data.subtitle}</p>}
+              <p class="editorial-row__summary">{post.data.description}</p>
+            </article>
+          ))
+        )
+      }
+    </div>
+  </section>
+</BaseLayout>

@@ -3,6 +3,7 @@ title: "Start Now"
 subtitle: "Start first. Start small. Start now."
 description: "Start first beats waiting for ready. An operator on iteration, messy data, and what four years of building looks like when you begin."
 pubDate: 2026-06-25
+lane: ai
 draft: false
 ---
 

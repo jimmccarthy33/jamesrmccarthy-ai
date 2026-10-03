@@ -9,6 +9,17 @@ const writing = defineCollection({
     subtitle: z.string().optional(),
     description: z.string(),
     pubDate: z.coerce.date(),
+    lane: z.enum(['ai', 'golf', 'care', 'facilities']),
+    series: z.string().optional(),
+    thread: z
+      .enum([
+        'the-game-and-me',
+        'the-builder',
+        'why-instruction-fails',
+        'how-learning-actually-works',
+      ])
+      .optional(),
+    originalUrl: z.string().url().optional(),
     keywords: z.array(z.string()).optional(),
     ogImage: z.string().optional(),
     draft: z.boolean().default(false),
