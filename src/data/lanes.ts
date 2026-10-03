@@ -57,7 +57,7 @@ export const lanes: Record<
   },
   facilities: {
     title: 'Facilities',
-    description: `${site.credential} ${site.thesis}`,
+    description: `${site.credential} ${site.casePractice}`,
     path: '/facilities',
   },
 };

@@ -6,8 +6,9 @@ export const site = {
   url: 'https://www.jamesrmccarthy.ai',
   linkedin: 'https://www.linkedin.com/in/jimmccarthy',
   description:
-    'I have the privilege of leading Case FMS, a leading provider of exterior facility maintenance across the United States and Canada, with more than 35,000 client locations. We use AI as a differentiator, to elevate and reinforce the quality of the service. Validation is one of the ways: the work outside gets confirmed, so clients, service partners, and our teams are looking at the same result.',
-  thesis:
+    'I have the privilege of leading Case FMS, a leading provider of exterior facility maintenance across the United States and Canada, with more than 35,000 client locations. AI is a differentiator in operations, in the business, and in the technology.',
+  thesis: 'AI is a differentiator in operations, in the business, and in the technology.',
+  casePractice:
     'We use AI as a differentiator, to elevate and reinforce the quality of the service. Validation is one of the ways: the work outside gets confirmed, so clients, service partners, and our teams are looking at the same result.',
   credential:
     'I have the privilege of leading Case FMS, a leading provider of exterior facility maintenance across the United States and Canada, with more than 35,000 client locations.',
