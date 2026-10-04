@@ -2,7 +2,7 @@
 
 > AI is a differentiator in operations, in the business, and in the technology.
 
-James R. McCarthy (Jim McCarthy): I have the privilege of leading Case FMS, a leading provider of exterior facility maintenance across the United States and Canada, with more than 35,000 client locations. AI is a differentiator in operations, in the business, and in the technology. He writes about the operating work, the tools, golf with his son, and care at home.
+James R. McCarthy (Jim McCarthy): I have the privilege of leading Case FMS, a leading provider of exterior facility maintenance across the United States and Canada, with more than 35,000 client locations. AI is a differentiator in operations, in the business, and in the technology. He writes about the operating work, the tools, golf with his son, care at home, and leadership.
 
 ## Canonical identity
 
@@ -19,7 +19,12 @@ James R. McCarthy (Jim McCarthy): I have the privilege of leading Case FMS, a le
 - [AI](https://www.jamesrmccarthy.ai/ai/): Tools, decision velocity, closed loops
 - [Golf](https://www.jamesrmccarthy.ai/golf/): Behind the Build, the No Doubles series. Product: https://www.nodoublesgolfco.com/
 - [Care](https://www.jamesrmccarthy.ai/care/): Door only. Product writing stays at https://www.carevazo.com/
-- [Facilities](https://www.jamesrmccarthy.ai/facilities/): Case leadership writing. Company articles: https://blog.casefms.com/resources — announcement: https://blog.casefms.com/resources/case-strengthens-executive-leadership-with-appointment-of-president-and-chief-operating-officer
+- [Facilities](https://www.jamesrmccarthy.ai/facilities/): The facilities career. Company articles: https://blog.casefms.com/resources — announcement: https://blog.casefms.com/resources/case-strengthens-executive-leadership-with-appointment-of-president-and-chief-operating-officer
+
+## Leadership
+
+- [Leadership](https://www.jamesrmccarthy.ai/leadership/): Leadership stories from the work, starting with Korea in 1994.
+- [The Worst Job in the Building](https://www.jamesrmccarthy.ai/writing/the-worst-job-in-the-building/): Korea, 1994, Camp Humphreys. A sergeant gives a private the worst job in the shop.
 
 ## Key pages
 

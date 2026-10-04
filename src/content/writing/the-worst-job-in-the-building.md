@@ -4,6 +4,13 @@ description: "Korea, 1994, Camp Humphreys: a sergeant gives a private the worst 
 pubDate: 2026-10-03
 lane: facilities
 series: leadership
+keywords:
+  - Korea 1994
+  - Camp Humphreys
+  - leadership
+  - accountability
+  - first assignment
+  - OV-1D Mohawk
 draft: false
 ogImage: "/images/ov-1d-mohawk-slar.png"
 ---

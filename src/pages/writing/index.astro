@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { site } from '../../data/site';
+import { seriesLabel } from '../../data/series';
 
 const posts = (await getCollection('writing', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
@@ -16,14 +17,14 @@ const laneLabel = {
 
 <BaseLayout
   title="Writing"
-  description={`Writing by ${site.legalName} (${site.name}) on the work, the tools, golf, and care at home.`}
+  description={`Writing by ${site.legalName} (${site.name}) on the work, the tools, golf, care at home, facilities, and leadership.`}
   path="/writing"
 >
   <header class="page-header">
     <div class="container container--prose">
       <h1>Writing</h1>
       <p class="page-header__subtitle">
-        The work, the tools, golf, and care at home.
+        The work, the tools, golf, care at home, facilities, and leadership.
       </p>
     </div>
   </header>
@@ -41,6 +42,16 @@ const laneLabel = {
               })}
               {' · '}
               {laneLabel[post.data.lane]}
+              {seriesLabel(post.data.series) && (
+                <>
+                  {' · '}
+                  {post.data.series === 'leadership' ? (
+                    <a href="/leadership">{seriesLabel(post.data.series)}</a>
+                  ) : (
+                    seriesLabel(post.data.series)
+                  )}
+                </>
+              )}
             </p>
             <h2 class="editorial-row__title">
               <a href={`/writing/${post.id}`}>{post.data.title}</a>
