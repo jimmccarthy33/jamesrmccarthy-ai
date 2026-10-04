@@ -21,14 +21,20 @@ const dateFormat = { year: 'numeric', month: 'long', day: 'numeric' } as const;
   <section class="hero">
     <div class="container">
       <div class="hero__grid">
-        <div class="hero__identity">
-          <h1 class="hero__name">
-            <span class="hero__label">I'm</span>
-            <span class="hero__name-line">Jim</span>
-            <span class="hero__name-line">McCarthy</span>
-          </h1>
-          <p class="hero__role">{site.credential}</p>
-        </div>
+        <h1 class="hero__name">
+          <span class="hero__label">I'm</span>
+          <span class="hero__name-line">Jim</span>
+          <span class="hero__name-line">McCarthy</span>
+        </h1>
+        <figure class="hero__portrait">
+          <img
+            src="/images/jim-mccarthy-portrait.jpg"
+            alt="Jim McCarthy"
+            width="600"
+            height="800"
+          />
+        </figure>
+        <p class="hero__role">{site.credential}</p>
         <p class="hero__thesis">{site.thesis}</p>
       </div>
     </div>
