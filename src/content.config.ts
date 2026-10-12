@@ -20,6 +20,7 @@ const writing = defineCollection({
       ])
       .optional(),
     originalUrl: z.string().url().optional(),
+    originalSite: z.string().optional(),
     keywords: z.array(z.string()).optional(),
     ogImage: z.string().optional(),
     draft: z.boolean().default(false),

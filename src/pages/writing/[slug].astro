@@ -78,7 +78,7 @@ const articleSchema = {
       {post.data.originalUrl && (
         <p class="editorial-row__meta">
           First published on{' '}
-          <a href={post.data.originalUrl}>the No Doubles blog</a>.
+          <a href={post.data.originalUrl}>{post.data.originalSite ?? 'the No Doubles blog'}</a>.
         </p>
       )}
     </div>
