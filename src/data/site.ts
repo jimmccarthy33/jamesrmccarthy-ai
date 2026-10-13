@@ -3,7 +3,7 @@ export const site = {
   legalName: 'James R. McCarthy',
   title: 'President · Operator · Builder',
   email: 'jamesrmccarthy@gmail.com',
-  url: 'https://www.jamesrmccarthy.ai',
+  url: 'https://www.jamesrmccarthy.ai/',
   linkedin: 'https://www.linkedin.com/in/jimmccarthy',
   description:
     'I have the privilege of leading Case FMS, a leading provider of exterior facility maintenance across the United States and Canada, with more than 35,000 client locations. AI is a differentiator in operations, in the business, and in the technology.',

@@ -15,7 +15,8 @@ export async function GET(context) {
       title: post.data.title,
       pubDate: post.data.pubDate,
       description: post.data.description,
-      link: `/writing/${post.id}/`,
+      // Absolute on purpose. A relative link is rewritten with a trailing slash.
+      link: new URL(`/writing/${post.id}`, context.site).href,
     })),
   });
 }
