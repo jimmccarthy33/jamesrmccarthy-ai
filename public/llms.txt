@@ -1,43 +1,47 @@
 # James R. McCarthy (Jim McCarthy)
 
-> AI is a differentiator in operations, in the business, and in the technology.
+> Leadership, facilities management, and AI. Leadership is in the facilities work and in the AI.
 
-James R. McCarthy (Jim McCarthy): I have the privilege of leading Case FMS, a leading provider of exterior facility maintenance across the United States and Canada, with more than 35,000 client locations. AI is a differentiator in operations, in the business, and in the technology. He writes about the operating work, the tools, golf with his son, care at home, and leadership.
+James R. McCarthy (Jim McCarthy): I have the privilege of leading Case FMS, a leading provider of exterior facility maintenance across the United States and Canada, with more than 35,000 client locations. AI is a differentiator in operations, in the business, and in the technology. He writes about leadership, facilities management, and AI, and leadership is in the facilities work and in the AI. He also writes about golf with his son and care at home.
 
-## Canonical identity
+Legal name James R. McCarthy. Goes by Jim. President of Case FMS. Previously Chief Operating Officer, Vixxo (2019–2026). Email: jamesrmccarthy@gmail.com. Site: https://www.jamesrmccarthy.ai
 
-- Name: James R. McCarthy
-- Goes by: Jim McCarthy
-- Role: President of Case FMS. I have the privilege of leading Case FMS, a leading provider of exterior facility maintenance across the United States and Canada, with more than 35,000 client locations. AI is a differentiator in operations, in the business, and in the technology.
-- Prior role: Chief Operating Officer, Vixxo (2019–2026)
-- Email: jamesrmccarthy@gmail.com
-- LinkedIn: https://www.linkedin.com/in/jimmccarthy
-- Site: https://www.jamesrmccarthy.ai
+- [LinkedIn](https://www.linkedin.com/in/jimmccarthy): James R. McCarthy
 
 ## Lanes
 
-- [AI](https://www.jamesrmccarthy.ai/ai/): Tools, decision velocity, closed loops
-- [Golf](https://www.jamesrmccarthy.ai/golf/): Behind the Build, the No Doubles series. Product: https://www.nodoublesgolfco.com/
-- [Care](https://www.jamesrmccarthy.ai/care/): Door only. Product writing stays at https://www.carevazo.com/
-- [Facilities](https://www.jamesrmccarthy.ai/facilities/): The facilities career. Company articles: https://blog.casefms.com/resources — announcement: https://blog.casefms.com/resources/case-strengthens-executive-leadership-with-appointment-of-president-and-chief-operating-officer
+- [AI](https://www.jamesrmccarthy.ai/ai): Essays on AI in the operating work
+- [Golf](https://www.jamesrmccarthy.ai/golf): Essays on golf with his son
+- [No Doubles Golf](https://www.nodoublesgolfco.com/): The golf product
+- [Care](https://www.jamesrmccarthy.ai/care): Door to care at home
+- [Carevazo](https://www.carevazo.com/): Care at home product writing
+- [Facilities](https://www.jamesrmccarthy.ai/facilities): The facilities career
+- [Case resources](https://blog.casefms.com/resources): Company articles
+- [Case president announcement](https://blog.casefms.com/resources/case-strengthens-executive-leadership-with-appointment-of-president-and-chief-operating-officer): Appointment of president and chief operating officer
+
+## AI
+
+- [Human Judgment in the AI Loop](https://www.jamesrmccarthy.ai/writing/human-judgment-in-the-ai-loop): An AI issue and a leadership issue: the model can recommend, and a person still owns the decision, which is how James R. McCarthy uses AI in the work.
+- [Build Is Free Now. Deciding Isn't.](https://www.jamesrmccarthy.ai/writing/decision-velocity): An AI issue and a leadership issue: build is nearly free, so the scarce resource is the speed of deciding, which is the constraint James R. McCarthy writes about.
+- [Everyone Builds](https://www.jamesrmccarthy.ai/writing/everyone-builds): An AI issue and a leadership issue: more people build, and the person who carries accountability still owns the gate, which is the operating model James R. McCarthy writes from.
+- [The Loop](https://www.jamesrmccarthy.ai/writing/the-loop): An AI issue and a leadership issue: the measure is whether work closes, and a person still owns the judgment, which is how James R. McCarthy runs an operating loop.
+- [Start Now](https://www.jamesrmccarthy.ai/writing/start-now): An AI issue: start on one real workflow before the program is ready, which is how James R. McCarthy gets the work moving.
 
 ## Leadership
 
-- [Leadership](https://www.jamesrmccarthy.ai/leadership/): Leadership stories from the work, starting with Korea in 1994.
-- [The Worst Job in the Building](https://www.jamesrmccarthy.ai/writing/the-worst-job-in-the-building/): Korea, 1994, Camp Humphreys. A sergeant gives a private the worst job in the shop.
+- [Leadership](https://www.jamesrmccarthy.ai/leadership): Leadership stories from the work
+- [Three Weeks In, I Broke $26 Million](https://www.jamesrmccarthy.ai/writing/three-weeks-in-i-broke-26-million): 1998, a leadership issue: a miss that reaches the customer is a system failure too, and the person who owns it is the one you bet on, which is how James R. McCarthy reads a failure.
+- [Women Leading Case at Every Level](https://www.jamesrmccarthy.ai/writing/women-leading-case-at-every-level): A leadership issue and a facilities management issue at Case: leadership at every level means people who understand the work, earn trust, and own the outcome, the standard James R. McCarthy looks for.
+- [The Worst Job in the Building](https://www.jamesrmccarthy.ai/writing/the-worst-job-in-the-building): Korea, 1994, a leadership issue: a leader holds the standard when the private does not, which is the accountability James R. McCarthy writes from.
 
 ## Key pages
 
-- [Home](https://www.jamesrmccarthy.ai/): Name, role, writing
-- [About](https://www.jamesrmccarthy.ai/about/): Career arc and resume (PDF)
-- [Writing](https://www.jamesrmccarthy.ai/writing/): All essays
-- [Build Is Free Now. Deciding Isn't.](https://www.jamesrmccarthy.ai/writing/decision-velocity/): Decision velocity is the scarce resource now that build is nearly free
-- [Everyone Builds](https://www.jamesrmccarthy.ai/writing/everyone-builds/): Manifesto on AI-native operating models
-- [The Loop](https://www.jamesrmccarthy.ai/writing/the-loop/): Detect, Triage, Act, Validate, Learn, Repeat
-- [Start Now](https://www.jamesrmccarthy.ai/writing/start-now/): Start first, start small, start now
-- [Resume PDF](https://www.jamesrmccarthy.ai/james-r-mccarthy-resume.pdf)
+- [Home](https://www.jamesrmccarthy.ai/): Name, role, and where the writing starts
+- [About](https://www.jamesrmccarthy.ai/about): Career arc and resume
+- [Writing](https://www.jamesrmccarthy.ai/writing): All essays
+- [Resume PDF](https://www.jamesrmccarthy.ai/james-r-mccarthy-resume.pdf): Career resume
 
 ## Optional
 
-- [RSS feed](https://www.jamesrmccarthy.ai/rss.xml)
-- [Sitemap](https://www.jamesrmccarthy.ai/sitemap-index.xml)
+- [RSS feed](https://www.jamesrmccarthy.ai/rss.xml): Essay feed an agent can skip
+- [Sitemap](https://www.jamesrmccarthy.ai/sitemap-index.xml): Full page list an agent can skip
