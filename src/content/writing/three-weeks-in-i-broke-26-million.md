@@ -26,7 +26,7 @@ They were wrong.
 
 ## Before that Monday.
 
-1998. I was 24 years old, straight out of the Army, and I had just moved my wife and me from Arizona back to Buffalo.
+1998\. I was 24 years old, straight out of the Army, and I had just moved my wife and me from Arizona back to Buffalo.
 
 It took me six weeks to find a job. We burned through our savings. When I started, I had maybe one paycheck behind me.
 
