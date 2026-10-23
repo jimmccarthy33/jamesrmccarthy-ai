@@ -4,7 +4,10 @@ description: "I hired a program manager I liked to lead an operations organizati
 pubDate: 2026-10-23
 lane: facilities
 series: leadership
-draft: true
+keywords:
+  - leadership
+  - hiring
+draft: false
 ---
 
 I hired a guy because I liked him.
