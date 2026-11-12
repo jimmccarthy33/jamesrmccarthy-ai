@@ -9,7 +9,7 @@ keywords:
   - U.S. Army
   - Korea
 ogImage: "/images/jim-mccarthy-army-sergeant.jpg"
-draft: true
+draft: false
 ---
 
 Every Veterans Day, and every Memorial Day, the same text comes in.
