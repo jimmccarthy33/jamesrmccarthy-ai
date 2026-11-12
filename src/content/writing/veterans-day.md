@@ -128,7 +128,7 @@ I am grateful for those who have served. For those who have sacrificed. For the 
 
 To my family. My great-grandfather, my grandfather, my grandpa Hill, Uncle Jack, Bob Miller, and Mike Miller. Thank you for your service. Rest in peace. And to my dad, my uncle Mike, my brother Tim, and my nephew Matt. Thank you for your service.
 
-To all the boys I served with. Harley, Heri, Kelly, Ferg, Parks, Mixon, the Swede, Westmoreland, SGT Adams, SSG Foulkes, Rene, Rick, Z, Corbett, and so many more. Love you all. Miss you guys.
+To all the boys I served with. Harley, Heri, Kelly, Ferg, Parks, Mixon, the Swede, Westmoreland, SGT Adams, SSG Foulkes, Rene, Rick, Z, Corbett, Pat from Kansas, who was with me at every duty station from day one of basic training, and so many more. Love you all. Miss you guys.
 
 Ken will text me again. I will write back, "Thanks, Ken." I mean it. The recognition is not why any of us put the uniform on. The team is. The country is. The chance to become someone larger than the kid who could not pick a major.
 
