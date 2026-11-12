@@ -5,6 +5,11 @@
       "source": "/sitemap.xml",
       "destination": "/sitemap-index.xml",
       "permanent": true
+    },
+    {
+      "source": "/writing/thanks-for-your-service",
+      "destination": "/writing/veterans-day",
+      "permanent": true
     }
   ]
 }
