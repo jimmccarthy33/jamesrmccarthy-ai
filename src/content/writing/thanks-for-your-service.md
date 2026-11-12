@@ -88,7 +88,19 @@ The line did not stop with me. Tim retired as an Army Master Sergeant. His son, 
   <figcaption>Tim McCarthy, retired Master Sergeant, and Matt McCarthy, six years active duty.</figcaption>
 </figure>
 
-There is a long line of U.S. Army service in this family. A natural calling sat next to the need to leave home and grow up. Both were true.
+My father-in-law, Bob Miller, served as a Navy CB during the Korean War. My brother-in-law, Mike Miller, served as a submariner in the 1970s.
+
+<figure>
+  <img
+    src="/images/bob-miller-navy-seabee.jpg"
+    alt="Bob Miller in his U.S. Navy uniform, Korean War era"
+    width="598"
+    height="816"
+  />
+  <figcaption>Bob Miller. Navy CB. Korean War.</figcaption>
+</figure>
+
+There is a long line of service in this family. Army and Navy. A natural calling sat next to the need to leave home and grow up. Both were true.
 
 ## What I want you to understand.
 
@@ -114,7 +126,7 @@ My friend Z was in the New York Army National Guard. He was at Ground Zero the d
 
 I am grateful for those who have served. For those who have sacrificed. For the families who paid the ultimate price when someone they loved gave their life in service and defense of this country. For seven years I worked with Teresa Garcia, a Gold Star mother who lost her son Antonio in an Army training accident. The pride she carries as a Gold Star mother is real. It does not replace the ultimate sacrifice her family made. She faces that every day.
 
-To my family. My great-grandfather, my grandfather, my grandpa Hill, and Uncle Jack. Thank you for your service. Rest in peace. And to my dad, my uncle Mike, my brother Tim, and my nephew Matt. Thank you for your service.
+To my family. My great-grandfather, my grandfather, my grandpa Hill, Uncle Jack, Bob Miller, and Mike Miller. Thank you for your service. Rest in peace. And to my dad, my uncle Mike, my brother Tim, and my nephew Matt. Thank you for your service.
 
 To all the boys I served with. Harley, Heri, Kelly, Ferg, Parks, Mixon, the Swede, Westmoreland, SGT Adams, SSG Foulkes, Rene, Rick, Z, Corbett, and so many more. Love you all. Miss you guys.
 
