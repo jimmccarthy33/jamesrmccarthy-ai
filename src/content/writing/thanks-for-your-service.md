@@ -124,7 +124,7 @@ I served in Korea, at Camp Humphreys, on the side-looking radar of an old Mohawk
 
 My friend Z was in the New York Army National Guard. He was at Ground Zero the day after the towers fell. He did three deployments. He carried the exposure and what he witnessed on those tours. He ultimately lost his battle with those demons.
 
-I am grateful for those who have served. For those who have sacrificed. For the families who paid the ultimate price when someone they loved gave their life in service and defense of this country. For seven years I worked with Teresa Garcia, a Gold Star mother who lost her son Antonio in an Army training accident. The pride she carries as a Gold Star mother is real. It does not replace the ultimate sacrifice her family made. She faces that every day.
+I am grateful for those who have served. For those who have sacrificed. For the families who paid the ultimate price when someone they loved gave their life in service and defense of this country. For seven years I worked with Teresa, a Gold Star mother who lost her son Antonio in an Army training accident. The pride she carries as a Gold Star mother is real. It does not replace the ultimate sacrifice her family made. She faces that every day.
 
 To my family. My great-grandfather, my grandfather, my grandpa Hill, Uncle Jack, Bob Miller, and Mike Miller. Thank you for your service. Rest in peace. And to my dad, my uncle Mike, my brother Tim, and my nephew Matt. Thank you for your service.
 
