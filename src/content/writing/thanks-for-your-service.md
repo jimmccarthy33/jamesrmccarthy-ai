@@ -120,7 +120,7 @@ That is the essence of America. What is possible when we come together. That is 
   <figcaption>Sergeant McCarthy. Fort Huachuca, Arizona.</figcaption>
 </figure>
 
-I served in Korea, at Camp Humphreys, on the side-looking radar of an old Mohawk. I served next to KATUSAs, Korean augmentees to the U.S. Army, Korean military serving side by side with American soldiers. That camaraderie with the people of the Republic of Korea is part of what the service meant. I am fortunate never to have been part of a conflict. That does not mean I would not have done it. I recognize that my contribution is not the same as others.
+I served in Korea, at Camp Humphreys, on the side-looking radar of an old Mohawk. SCAM. I served next to KATUSAs, Korean augmentees to the U.S. Army, Korean military serving side by side with American soldiers. That camaraderie with the people of the Republic of Korea is part of what the service meant. I am fortunate never to have been part of a conflict. That does not mean I would not have done it. I recognize that my contribution is not the same as others.
 
 My friend Z was in the New York Army National Guard. He was at Ground Zero the day after the towers fell. He did three deployments. He carried the exposure and what he witnessed on those tours. He ultimately lost his battle with those demons.
 
