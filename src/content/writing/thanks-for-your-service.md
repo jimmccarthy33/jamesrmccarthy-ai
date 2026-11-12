@@ -1,5 +1,5 @@
 ---
-title: "Thanks for Your Service"
+title: "Veterans Day"
 description: "Every Veterans Day, Ken texts me. I appreciate it. I still do not know what to say back."
 pubDate: 2026-11-11
 lane: facilities
