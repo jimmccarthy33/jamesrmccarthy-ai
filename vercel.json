@@ -2,13 +2,13 @@
   "trailingSlash": false,
   "redirects": [
     {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap-index.xml",
+      "source": "/:path+/",
+      "destination": "https://www.jamesrmccarthy.ai/:path+",
       "permanent": true
     },
     {
       "source": "/writing/thanks-for-your-service",
-      "destination": "/writing/veterans-day",
+      "destination": "https://www.jamesrmccarthy.ai/writing/veterans-day",
       "permanent": true
     }
   ]
