@@ -15,8 +15,8 @@ const featured = [latest, manifesto].filter(
   (post, index, all): post is NonNullable<typeof post> =>
     !!post && !post.data.draft && all.findIndex((p) => p?.id === post.id) === index,
 );
-const dateFormat = { year: 'numeric', month: 'long', day: 'numeric' } as const;
-const shortDate = { year: 'numeric', month: 'short', day: 'numeric' } as const;
+const dateFormat = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' } as const;
+const shortDate = { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' } as const;
 ---
 
 <BaseLayout description={site.description} path="/">

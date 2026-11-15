@@ -5,7 +5,7 @@ import { getCollection } from 'astro:content';
 const posts = (
   await getCollection('writing', ({ data }) => !data.draft && data.series === 'leadership')
 ).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-const dateFormat = { year: 'numeric', month: 'long', day: 'numeric' } as const;
+const dateFormat = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' } as const;
 ---
 
 <BaseLayout
