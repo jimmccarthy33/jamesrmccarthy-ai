@@ -14,6 +14,7 @@ export const site = {
     'I have the privilege of leading Case FMS, a leading provider of exterior facility maintenance across the United States and Canada, with more than 35,000 client locations.',
   scope: 'I write about the work, the tools, golf with my son, and care at home.',
   role: 'President of Case FMS',
+  heroTitle: 'President, Case Facilities Management Solutions',
   jobTitle: 'President',
   employer: 'Case FMS',
   pageTitle: 'James R. McCarthy (Jim McCarthy)',
