@@ -10,35 +10,52 @@ const published = (await getCollection('writing', ({ data }) => !data.draft)).so
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 const latest = published[0];
+const recent = published.slice(0, 3);
 const featured = [latest, manifesto].filter(
   (post, index, all): post is NonNullable<typeof post> =>
     !!post && !post.data.draft && all.findIndex((p) => p?.id === post.id) === index,
 );
 const dateFormat = { year: 'numeric', month: 'long', day: 'numeric' } as const;
+const shortDate = { year: 'numeric', month: 'short', day: 'numeric' } as const;
 ---
 
 <BaseLayout description={site.description} path="/">
   <section class="hero">
     <div class="container">
       <div class="hero__grid">
+        <figure class="hero__portrait">
+          <img
+            src="/images/jim-mccarthy-portrait.jpg"
+            alt="Jim McCarthy"
+            width="600"
+            height="800"
+          />
+        </figure>
         <div class="hero__copy">
           <h1 class="hero__name">
-            <span class="hero__label">I'm</span>
             <span class="hero__name-line">Jim</span>
             <span class="hero__name-line">McCarthy</span>
           </h1>
-          <p class="hero__role">{site.credential}</p>
-        </div>
-        <div class="hero__aside">
-          <figure class="hero__portrait">
-            <img
-              src="/images/jim-mccarthy-portrait.jpg"
-              alt="Jim McCarthy"
-              width="600"
-              height="800"
-            />
-          </figure>
-          <p class="hero__thesis">{site.thesis}</p>
+          <p class="hero__role">{site.heroTitle}</p>
+          {
+            recent.length > 0 && (
+              <nav class="hero__recent" aria-labelledby="hero-recent-label">
+                <span class="hero__recent-label" id="hero-recent-label">Recent writing</span>
+                <ul class="hero__recent-list">
+                  {recent.map((post) => (
+                    <li>
+                      <a href={`/writing/${post.id}`}>
+                        <span>{post.data.title}</span>
+                        <time datetime={post.data.pubDate.toISOString()}>
+                          {post.data.pubDate.toLocaleDateString('en-US', shortDate)}
+                        </time>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            )
+          }
         </div>
       </div>
     </div>
