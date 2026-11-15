@@ -285,6 +285,47 @@ p:last-child {
   color: var(--color-body);
 }
 
+.featured-essay {
+  padding-top: var(--space-2xl);
+  border-top: 1px solid var(--color-line);
+}
+
+.featured-essay__meta {
+  margin: 0 0 var(--space-sm);
+  font-size: 0.8125rem;
+  color: var(--color-secondary);
+}
+
+.featured-essay__title {
+  margin: 0 0 var(--space-sm);
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.featured-essay__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.featured-essay__title a:hover {
+  text-decoration: underline;
+}
+
+.featured-essay__subtitle {
+  margin: 0 0 var(--space-md);
+  font-size: 1.1667rem;
+  font-weight: 500;
+  color: var(--color-body);
+}
+
+.featured-essay__summary {
+  margin: 0 0 var(--space-xl);
+  font-size: 1.0556rem;
+  line-height: 1.65;
+  color: var(--color-body);
+}
+
 .text-link {
   display: inline-block;
   margin-top: var(--space-xl);

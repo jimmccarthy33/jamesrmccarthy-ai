@@ -11,10 +11,10 @@ const published = (await getCollection('writing', ({ data }) => !data.draft)).so
 );
 const latest = published[0];
 const recent = published.slice(0, 3);
-const featured = [latest, manifesto].filter(
-  (post, index, all): post is NonNullable<typeof post> =>
-    !!post && !post.data.draft && all.findIndex((p) => p?.id === post.id) === index,
-);
+// One featured essay below the hero. The hero already lists the newest posts,
+// so this spot is for the piece that best says what the site is about.
+const featured = manifesto && !manifesto.data.draft ? manifesto : latest;
+const laneLabel = { ai: 'AI', golf: 'Golf', care: 'Care', facilities: 'Facilities' } as const;
 const dateFormat = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' } as const;
 const shortDate = { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' } as const;
 ---
@@ -62,30 +62,24 @@ const shortDate = { year: 'numeric', month: 'short', day: 'numeric', timeZone: '
   </section>
 
   {
-    featured.length > 0 && (
+    featured && (
       <section class="home-section">
         <div class="container">
-          <div class="home-block">
-          <p class="section-kicker">Writing</p>
-          {featured.map((post) => (
-            <article class="editorial-row manifesto-row">
-              <p class="editorial-row__meta">
-                {post.data.pubDate.toLocaleDateString('en-US', dateFormat)}
-              </p>
-              <h2 class="editorial-row__title">
-                <a href={`/writing/${post.id}`}>{post.data.title}</a>
-              </h2>
-              {post.data.subtitle && (
-                <p class="editorial-row__summary">{post.data.subtitle}</p>
-              )}
-              <p class="editorial-row__summary">{post.data.description}</p>
-            </article>
-          ))}
-          <a class="text-link" href={`/writing/${featured[0].id}`}>
-            Read {featured[0].data.title} →
-          </a>
-          <a class="text-link text-link--secondary" href="/writing">All writing →</a>
-          </div>
+          <article class="home-block featured-essay">
+            <p class="section-kicker">Featured essay</p>
+            <p class="featured-essay__meta">
+              {featured.data.pubDate.toLocaleDateString('en-US', dateFormat)} · {laneLabel[featured.data.lane]}
+            </p>
+            <h2 class="featured-essay__title">
+              <a href={`/writing/${featured.id}`}>{featured.data.title}</a>
+            </h2>
+            {featured.data.subtitle && (
+              <p class="featured-essay__subtitle">{featured.data.subtitle}</p>
+            )}
+            <p class="featured-essay__summary">{featured.data.description}</p>
+            <a class="text-link" href={`/writing/${featured.id}`}>Read the essay →</a>
+            <a class="text-link text-link--secondary" href="/writing">All writing →</a>
+          </article>
         </div>
       </section>
     )
