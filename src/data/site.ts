@@ -18,7 +18,8 @@ export const site = {
   jobTitle: 'President',
   employer: 'Case FMS',
   pageTitle: 'James R. McCarthy (Jim McCarthy)',
-  manifestoSlug: 'everyone-builds',
+  // Essay shown in the home page's "Featured essay" section.
+  featuredSlug: 'veterans-day',
   contactSubtitle: 'Email works.',
   contactTeaser: 'If something here made you curious, say hello.',
   contactBody:

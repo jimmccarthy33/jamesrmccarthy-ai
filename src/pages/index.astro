@@ -5,7 +5,7 @@ import { getCollection, getEntry } from 'astro:content';
 import { site } from '../data/site';
 import { trackRecord } from '../data/resume';
 
-const manifesto = await getEntry('writing', site.manifestoSlug);
+const featuredEntry = await getEntry('writing', site.featuredSlug);
 const published = (await getCollection('writing', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
@@ -13,7 +13,7 @@ const latest = published[0];
 const recent = published.slice(0, 3);
 // One featured essay below the hero. The hero already lists the newest posts,
 // so this spot is for the piece that best says what the site is about.
-const featured = manifesto && !manifesto.data.draft ? manifesto : latest;
+const featured = featuredEntry && !featuredEntry.data.draft ? featuredEntry : latest;
 const laneLabel = { ai: 'AI', golf: 'Golf', care: 'Care', facilities: 'Facilities' } as const;
 const dateFormat = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' } as const;
 const shortDate = { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' } as const;
