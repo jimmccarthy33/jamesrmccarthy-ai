@@ -84,7 +84,7 @@ One spot was empty. Romo, his third baseman, couldn't make it. He had just moved
 
 Then Amber came down the aisle.
 
-Amber is Wes's sister. Always the life of the party. High energy, full of sass, quick-witted, and one of the hardest-working people you will ever meet. As a single mom, she puts her best foot forward every day. Watching her walk down that aisle, bright, strong, and proud.
+Amber is Wes's sister. Always the life of the party. High energy, full of sass, quick-witted, and one of the hardest-working people you will ever meet. As a single mom, she puts her best foot forward every day. Seeing her walk down that aisle, bright, strong, and proud, made every one of us proud of her.
 
 Then Blakely, Amber's daughter, the flower girl. Eight years old and the spitting image of her mother. Same energy. Same sass. An amazing kid. Her best friend is Wayne. She calls him Grumpy. The two of them have something special.
 
