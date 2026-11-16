@@ -94,7 +94,7 @@ And Wes, watching her come.
 
 That's when the tears finally won. The love of his life walking toward him, and he stopped holding it back.
 
-The ceremony ran about fifteen minutes. Thank you. Does anyone really need an hour-plus ceremony? No.
+The ceremony ran about fifteen minutes. Perfect timing.
 
 ## The dance floor.
 
