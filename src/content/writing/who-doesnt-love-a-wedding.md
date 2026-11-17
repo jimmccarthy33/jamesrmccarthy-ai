@@ -132,10 +132,20 @@ Until "YMCA." Who doesn't dance to "YMCA"? You have to. Plus, it's for Wes. Jean
     width="1280"
     height="960"
   />
-  <figcaption>Jean, finally on the floor. Note the buttons.</figcaption>
+  <figcaption>Jean, finally on the floor.</figcaption>
 </figure>
 
 Then House of Pain, "Jump Around," and suddenly it was 1993 and I was back at Club Boston in Fitchburg, a soldier off Fort Devens, wearing a hoop earring and a denim button-down. The light blue shirt was a few buttons lower by then. One button every five mojitos.
+
+<figure>
+  <img
+    src="/images/jim-buttons-dance-floor.jpg"
+    alt="Jim laughing on the dance floor, his light shirt unbuttoned well past the collar"
+    width="960"
+    height="1280"
+  />
+  <figcaption>Exhibit A. The buttons.</figcaption>
+</figure>
 
 Then "Mr. Brightside." If you're a Bills fan, that song gets danced to and sung at full volume. Not optional.
 
