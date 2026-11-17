@@ -9,6 +9,7 @@ keywords:
   - Cancun
   - friendship
   - family
+ogImage: "/images/wes-audrey-vows-cancun.jpg"
 draft: false
 ---
 
@@ -93,6 +94,16 @@ Then Audrey. Stunning in her dress. Smiling the whole way down, wanting this to 
 And Wes, watching her come.
 
 That's when the tears finally won. The love of his life walking toward him, and he stopped holding it back.
+
+<figure>
+  <img
+    src="/images/wes-audrey-vows-cancun.jpg"
+    alt="Wes and Audrey holding hands during their vows under a gazebo draped in white fabric and white roses, with the Caribbean behind them"
+    width="960"
+    height="1280"
+  />
+  <figcaption>Wes and Audrey. Cancun.</figcaption>
+</figure>
 
 The ceremony ran about fifteen minutes. Perfect timing.
 
