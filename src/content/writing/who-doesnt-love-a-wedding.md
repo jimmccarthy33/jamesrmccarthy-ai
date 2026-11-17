@@ -129,6 +129,16 @@ Then House of Pain, "Jump Around," and suddenly it was 1993 and I was back at Cl
 
 Then "Mr. Brightside." If you're a Bills fan, that song gets danced to and sung at full volume. Not optional.
 
+<figure>
+  <img
+    src="/images/wedding-dance-floor-mr-brightside.jpg"
+    alt="The dance floor under strings of lights during Mr. Brightside, guests singing with their arms in the air and the bride in the middle of the crowd"
+    width="1280"
+    height="961"
+  />
+  <figcaption>Mr. Brightside. Full volume.</figcaption>
+</figure>
+
 Then fireworks, ordered special for Wes and Audrey. Then last call. Then it was over.
 
 ## The day after.
