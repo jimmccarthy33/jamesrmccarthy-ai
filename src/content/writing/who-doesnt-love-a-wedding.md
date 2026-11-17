@@ -1,7 +1,7 @@
 ---
 title: "Who Doesn't Love a Wedding"
 description: "Jean had never left the country. I was in the middle of peak snow prep. We went to Cancun anyway, because it was Wes."
-pubDate: 2026-11-18
+pubDate: 2026-11-16
 lane: facilities
 keywords:
   - wedding

@@ -19,7 +19,7 @@ export const site = {
   employer: 'Case FMS',
   pageTitle: 'James R. McCarthy (Jim McCarthy)',
   // Essay shown in the home page's "Featured essay" section.
-  featuredSlug: 'veterans-day',
+  featuredSlug: 'who-doesnt-love-a-wedding',
   contactSubtitle: 'Email works.',
   contactTeaser: 'If something here made you curious, say hello.',
   contactBody:
